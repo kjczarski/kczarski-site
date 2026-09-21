@@ -41,8 +41,8 @@ header.top{display:flex;justify-content:space-between;align-items:center;gap:16p
 .xlink:hover{color:var(--ink)}
 .xlink.lang{padding:4px 9px;border:1px solid var(--line);border-radius:999px;transition:border-color .18s ease,color .18s ease}
 .xlink.lang:hover{border-color:var(--ink)}
-.theme{background:none;border:0;padding:8px 0 8px 6px;margin:0 -6px 0 0;cursor:pointer;color:var(--muted);display:inline-flex;align-items:center;transition:color .18s ease,transform .18s ease}
-.theme:hover{color:var(--ink);transform:rotate(18deg)}
+.theme{appearance:none;background:none;border:0;padding:0;margin:0;cursor:pointer;color:var(--muted);display:inline-flex;align-items:center;line-height:1;transition:color .18s ease}
+.theme:hover{color:var(--ink)}
 .theme svg{display:block}
 main{animation:rise .5s cubic-bezier(.2,.6,.2,1) both}
 @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}

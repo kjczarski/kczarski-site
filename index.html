@@ -7,7 +7,7 @@
 <meta name="description" content="Krzysztof (Chris) Czarski: private English lessons and Erasmus+ workshops.">
 <link rel="stylesheet" href="assets/style.css">
 <script>
-(function(){var t=localStorage.getItem('theme');if(!t){try{t=matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':''}catch(e){}}if(t==='dark')document.documentElement.setAttribute('data-theme','dark')})();
+(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t){try{t=matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':''}catch(e){}}if(t==='dark')document.documentElement.setAttribute('data-theme','dark')})();
 </script>
 </head>
 <body>
@@ -17,8 +17,8 @@
       <nav class="topnav">
         <a class="xlink" href="blog.html">Blog</a>
         <a class="xlink lang" href="pl/index.html">PL</a>
+        <button type="button" class="theme" id="theme" aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12h2.5M19 12h2.5M5 5l1.8 1.8M17.2 17.2L19 19M19 5l-1.8 1.8M6.8 17.2L5 19"/></svg></button>
       </nav>
-      <button type="button" class="theme" id="theme" aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12h2.5M19 12h2.5M5 5l1.8 1.8M17.2 17.2L19 19M19 5l-1.8 1.8M6.8 17.2L5 19"/></svg></button>
     </header>
     <main>
 <ul class="chooser">
@@ -33,7 +33,7 @@
       </ul>
     </main>
 <script>
-document.getElementById('theme').addEventListener('click',function(){var h=document.documentElement;h.hasAttribute('data-theme')?h.removeAttribute('data-theme'):h.setAttribute('data-theme','dark');localStorage.setItem('theme',h.hasAttribute('data-theme')?'dark':'')});
+document.getElementById('theme').addEventListener('click',function(){var h=document.documentElement;h.hasAttribute('data-theme')?h.removeAttribute('data-theme'):h.setAttribute('data-theme','dark');try{localStorage.setItem('theme',h.hasAttribute('data-theme')?'dark':'')}catch(e){}});
 </script>
   </div>
 </body>

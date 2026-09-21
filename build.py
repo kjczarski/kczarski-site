@@ -101,7 +101,7 @@ SUN_SVG = (
 
 THEME_INIT = (
     '<script>\n'
-    "(function(){var t=localStorage.getItem('theme');"
+    "(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}"
     "if(!t){try{t=matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':''}catch(e){}}"
     "if(t==='dark')document.documentElement.setAttribute('data-theme','dark')})();\n"
     "</script>\n"
@@ -112,7 +112,7 @@ THEME_HANDLER = (
     "document.getElementById('theme').addEventListener('click',function(){"
     "var h=document.documentElement;"
     "h.hasAttribute('data-theme')?h.removeAttribute('data-theme'):h.setAttribute('data-theme','dark');"
-    "localStorage.setItem('theme',h.hasAttribute('data-theme')?'dark':'')})"
+    "try{localStorage.setItem('theme',h.hasAttribute('data-theme')?'dark':'')}catch(e){}})"
     ";\n"
     "</script>\n"
 )
@@ -212,12 +212,14 @@ def header(lang, out, kind, keys, post_key=None):
              for key in keys]
     links.append('        <a class="xlink lang" href="%s">%s</a>\n'
                  % (rel(out, switch_target), SWITCH_LABEL[lang]))
+    links.append(
+        '        <button type="button" class="theme" id="theme" '
+        'aria-label="Toggle dark mode">%s</button>\n' % SUN_SVG
+    )
     home = rel(out, LANG_DIR[lang] + "index.html")
     return ('      <a class="brand" href="%s">Krzysztof Czarski</a>\n'
-            '      <nav class="topnav">\n%s      </nav>\n'
-            '      <button type="button" class="theme" id="theme" '
-            'aria-label="Toggle dark mode">%s</button>') % (
-        home, "".join(links), SUN_SVG)
+            '      <nav class="topnav">\n%s      </nav>') % (
+        home, "".join(links))
 
 
 def page(lang, title, desc, out, head, main, tagline):
