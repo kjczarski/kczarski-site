@@ -1,0 +1,46 @@
+---
+title: Stories & Methods
+date: 2022-07-01
+---
+
+Hi!
+I'm Krzysztof (or Chris) Czarski /ʈʃʌrskɪ/.
+I create individually customised lessons to encourage students to grow their language confidence.
+I use authentic media and discussion to help students practise the art of conversation.
+I translate grammar complexity and nuance into language that is beautiful and powerful.
+I passed Cambridge Certificate in Teaching English to Speakers of Other Languages (CELTA) and Certificate of Proficiency in English (CPE), both with the highest grade.
+When I teach, I mix the approach I describe below with the techniques I learned during CELTA and my time at the university. This allows me to keep learners constantly motivated and challenged and use a more systemic approach when I need to work on persistent mistakes. I have been able to build effective and personalised learning processes and achieve excellent results to meet the needs of tens of diverse learners.
+I studied Applied Linguistics in French and Japanese at the University of Warsaw. This allowed me to see some of the methods utilised by the best language professors in my country. Unfortunately, due to personal reasons related to the Coronavirus pandemic I couldn't finish my degree. I continue to learn these languages and linguistic theory on my own.
+I avoid using schoolbooks and prefer more relatable media whenever possible. This has been, after all, how I have been learning.
+
+## Stories & methods
+
+During my 7 years as a tutor I have worked with learners of all ages, backgrounds, and levels.
+
+**Franek**
+
+When I worked with Franek, a fireball of a 6-year-old, a great deal of our lessons consisted of playing football in a corridor of his flat. There was, however, a small twist – in order to score, one had to say an English sentence right before shooting. The longer the sentence, the more points we could get. This turned out to be extremely motivating for Franek, who would soon be learning words and simple structures on his own. Often he would build extremely long sentences and enumerate the months, every object in his room, and all the things he liked in an attempt to "bend the rules" and score 50 points with a single kick.
+
+This stress-free memorisation technique was fun enough to serve as "reward" at the end of every lesson. It's ideas like this, combined with playing Minecraft and board games together, that soon allowed him to comfortably watch his favourite cartoons in English and shine at school.
+
+**Max**
+
+Another one of my students, 17-year-old Max, was an amateur guitarist. Our lessons would focus on song lyrics; I still remember the two lessons about idioms that I centred around "Going through Hell" by The Streets. At this point my task was to prepare him for the Polish Matura exam which involves a lot of grammar exercises. Finding powerful songs that use grammar to make a point helped him see the more difficult constructions as riddles that were worth solving. I remember when the first verse of "Stuck on the puzzle" finally made Past Perfect click in Max's head. This way of learning helped him enjoy working out grammar, and he would soon ask to do some CPE-level exercises just to see "what else is out there". Compare that to how daunting grammar usually seems to learners!
+
+Max passed the Advanced English part of his Matura exam with a score of 98%. He started his degree and our lessons would soon shift into discussing global events and listening to interviews, as this was more in line with his new interests. Still, we would occasionally go through the lyrics of a song one of us found intriguing.
+
+**Marcel**
+
+When I had the pleasure to teach Marcel, a tech-obsessed teenager, I showed him how more effective googling in English is. He would spend lots of time reading about tech, and as soon as he got to the level where he could do that in English, his skills exploded and he was able to teach me the exact workings of a TV, a retro console, or a new graphic card technology – all in English.
+
+In this case, finding a purpose to learn, a little bit of confidence to start and a small push in the right direction was all it took to achieve progress that would keep shocking me week after week.
+
+**Magda**
+
+I worked with a businesswoman who above all desired a clear structure in her lessons. We would start each lesson with a chat, then go over a few pages of a novel, and finish the lesson by watching a TV show based on that very novel. This provided a clear but flexible structure and a mix of speaking, reading and listening at every lesson.
+
+Techniques like these do not work for everyone – but this is exactly why I used them. They were what worked for the particular learner. I hope to continue to use my experience and training to find an individual, effective approach for all my future students. My first goal is always to help find a strong purpose to learn.
+
+The ultimate goal is to make my students as passionate about language as I am.
+
+*Update, 2026: I wrote this in 2022. My methods have moved on since then. I now teach fully online, and a new post about how I teach today is on the way.*
