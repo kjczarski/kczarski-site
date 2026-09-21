@@ -36,7 +36,7 @@ SWITCH_LABEL = {"en": "PL", "pl": "EN"}
 
 # Nav link sets per kind of page, keys refer to page names.
 NAV = {
-    "index": ["blog"],
+    "index": [],
     "lessons": ["workshops", "blog"],
     "workshops": ["lessons", "blog"],
     "blog": ["lessons", "workshops"],
