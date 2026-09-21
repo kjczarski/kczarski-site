@@ -39,8 +39,6 @@ header.top{display:flex;justify-content:space-between;align-items:center;gap:16p
 .topnav{display:flex;align-items:center;gap:22px}
 .xlink{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;color:var(--muted);white-space:nowrap}
 .xlink:hover{color:var(--ink)}
-.xlink.lang{padding:4px 9px;border:1px solid var(--line);border-radius:999px;transition:border-color .18s ease,color .18s ease}
-.xlink.lang:hover{border-color:var(--ink)}
 .theme{appearance:none;background:none;border:0;padding:0;margin:0;cursor:pointer;color:var(--muted);display:inline-flex;align-items:center;line-height:1;transition:color .18s ease}
 .theme:hover{color:var(--ink)}
 .theme svg{display:block}
