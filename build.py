@@ -135,7 +135,7 @@ def build():
         slug = re.sub(r"[^a-z0-9-]+", "-", path.stem.lower()).strip("-")
         entries.append({"slug": slug, "title": title, "date": date, "body": body})
 
-    entries.sort(key=lambda e: e["date"], reverse=True)
+    entries.sort(key=lambda e: (e["date"], e["title"].lower()), reverse=True)
 
     for e in entries:
         header = HEADER.format(

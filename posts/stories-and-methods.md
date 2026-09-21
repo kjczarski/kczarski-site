@@ -1,6 +1,6 @@
 ---
 title: Stories & Methods
-date: 2022-07-01
+date: 2022-02-23
 ---
 
 Hi!
