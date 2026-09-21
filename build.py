@@ -59,6 +59,9 @@ def md_to_html(md):
         elif line.startswith("# "):
             close_ul()
             out.append("<h2>%s</h2>" % inline(line[2:]))
+        elif re.match(r"^!\[", line):
+            m = re.match(r"^!\[(.*?)\]\((.*?)\)$", line)
+            out.append('<img src="%s" alt="%s" loading="lazy">' % (m.group(2), m.group(1)))
         elif re.match(r"^[-*] ", line):
             if not in_ul:
                 out.append("<ul>")
