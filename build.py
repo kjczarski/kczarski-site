@@ -102,8 +102,10 @@ SUN_SVG = (
 THEME_INIT = (
     '<script>\n'
     "(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}"
-    "if(!t){try{t=matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':''}catch(e){}}"
-    "if(t==='dark')document.documentElement.setAttribute('data-theme','dark')})();\n"
+    "if(t==='dark')document.documentElement.setAttribute('data-theme','dark');"
+    "else if(t==='light'){"
+    "}else{try{matchMedia('(prefers-color-scheme: dark)').matches&&document.documentElement.setAttribute('data-theme','dark')}catch(e){}}}"
+    ")();\n"
     "</script>\n"
 )
 
@@ -112,7 +114,7 @@ THEME_HANDLER = (
     "document.getElementById('theme').addEventListener('click',function(){"
     "var h=document.documentElement;"
     "h.hasAttribute('data-theme')?h.removeAttribute('data-theme'):h.setAttribute('data-theme','dark');"
-    "try{localStorage.setItem('theme',h.hasAttribute('data-theme')?'dark':'')}catch(e){}})"
+    "try{localStorage.setItem('theme',h.hasAttribute('data-theme')?'dark':'light')}catch(e){}})"
     ";\n"
     "</script>\n"
 )
