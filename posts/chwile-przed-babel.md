@@ -1,6 +1,8 @@
 ---
 title: Chwile przed Babel
 date: 2020-12-01
+lang: pl
+pair: moments-before-babel
 ---
 
 Inspirowany podziałem, jaki wyrósł w XX wieku między produkcją masową a rękodziełem, czy mechaniką kwantową i klasyczną, widzę w przyszłości możliwość rozwoju dwóch różnych sposobów używania języka - różniących się między sobą na poziomie głębszym niż poszczególne systemy języków naturalnych. Ograniczenia niesione przez język są tematem rozważań filozoficznych już od czasów antycznych. Do tego, w ostatnich latach, w związku z globalizacją, demokratyzacją, wzrostem roli Internetu i rozwojem sztucznej inteligencji, ujawniają się ogromne zagrożenia płynące z używania języka w niezmienionej formie. Mimo rewolucyjnych zmian w prawie każdej dziedzinie życia i nauki, podstawowe mechanizmy działania języka pozostawały od wieków niezmienne. Te zjawiska, również w kontekście testu Turinga, nasuwają wniosek, że językowa rewolucja może być potrzebna, jeśli nie nieunikniona. Esej w dużym stopniu zainspirowany jest dwoma cytatami Ludwiga Wittgensteina – jednym o granicach języka będących granicami świata, drugim o niedorzeczności jego propozycji.

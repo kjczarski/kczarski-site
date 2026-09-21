@@ -1,6 +1,8 @@
 ---
 title: Moments Before Babel
 date: 2020-12-01
+lang: en
+pair: chwile-przed-babel
 ---
 
 Inspired by the divide that emerged in the twentieth century between mass production and handicraft, or between quantum and classical mechanics, I see, in the future, the possibility of two distinct ways of using language developing – ways that differ from one another on a level deeper than that of individual natural-language systems. The limitations carried by language have been a subject of philosophical reflection since antiquity. On top of this, in recent years, in connection with globalization, democratization, the growing role of the Internet, and the development of artificial intelligence, enormous dangers arising from the use of language in its unchanged form have come to light. Despite revolutionary changes in almost every field of life and science, the basic mechanisms by which language operates have remained unchanged for centuries. These phenomena, also in the context of the Turing test, suggest that a linguistic revolution may be necessary, if not inevitable. This essay draws much of its inspiration from two quotations from Ludwig Wittgenstein – one about the limits of language being the limits of the world, the other about the nonsensicality of his own propositions.

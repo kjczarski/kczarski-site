@@ -1,10 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chwile przed Babel, Krzysztof Czarski</title>
-<link rel="stylesheet" href="../assets/style.css">
+<meta name="description" content="Eseje i notatki Krzysztofa (Chrisa) Czarskiego.">
+<link rel="stylesheet" href="../../assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');if(!t){try{t=matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':''}catch(e){}}if(t==='dark')document.documentElement.setAttribute('data-theme','dark')})();
+</script>
 </head>
 <body>
   <div class="wrap">
@@ -12,15 +16,17 @@
       <a class="brand" href="../index.html">Krzysztof Czarski</a>
       <nav class="topnav">
         <a class="xlink" href="../blog.html">Blog</a>
-        <a class="xlink" href="../lessons.html">Lessons</a>
-        <a class="xlink" href="../workshops.html">Workshops</a>
+        <a class="xlink" href="../lessons.html">Lekcje</a>
+        <a class="xlink" href="../workshops.html">Warsztaty</a>
+        <a class="xlink lang" href="../../posts/moments-before-babel.html">EN</a>
       </nav>
+      <button type="button" class="theme" id="theme" aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12h2.5M19 12h2.5M5 5l1.8 1.8M17.2 17.2L19 19M19 5l-1.8 1.8M6.8 17.2L5 19"/></svg></button>
     </header>
     <main>
       <div class="hero">
         <h1>Chwile przed Babel</h1>
       </div>
-      <p class="meta">1 Dec 2020</p>
+      <p class="meta">1 gru 2020</p>
       <section class="post">
         <p>Inspirowany podziałem, jaki wyrósł w XX wieku między produkcją masową a rękodziełem, czy mechaniką kwantową i klasyczną, widzę w przyszłości możliwość rozwoju dwóch różnych sposobów używania języka - różniących się między sobą na poziomie głębszym niż poszczególne systemy języków naturalnych. Ograniczenia niesione przez język są tematem rozważań filozoficznych już od czasów antycznych. Do tego, w ostatnich latach, w związku z globalizacją, demokratyzacją, wzrostem roli Internetu i rozwojem sztucznej inteligencji, ujawniają się ogromne zagrożenia płynące z używania języka w niezmienionej formie. Mimo rewolucyjnych zmian w prawie każdej dziedzinie życia i nauki, podstawowe mechanizmy działania języka pozostawały od wieków niezmienne. Te zjawiska, również w kontekście testu Turinga, nasuwają wniosek, że językowa rewolucja może być potrzebna, jeśli nie nieunikniona. Esej w dużym stopniu zainspirowany jest dwoma cytatami Ludwiga Wittgensteina – jednym o granicach języka będących granicami świata, drugim o niedorzeczności jego propozycji.</p>
         <p>The limits of my language are the limits of my world.</p>
@@ -66,6 +72,9 @@
         <span>Blog</span>
       </footer>
     </main>
+<script>
+document.getElementById('theme').addEventListener('click',function(){var h=document.documentElement;h.hasAttribute('data-theme')?h.removeAttribute('data-theme'):h.setAttribute('data-theme','dark');localStorage.setItem('theme',h.hasAttribute('data-theme')?'dark':'')});
+</script>
   </div>
 </body>
 </html>

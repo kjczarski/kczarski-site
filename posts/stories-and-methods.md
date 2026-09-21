@@ -1,6 +1,8 @@
 ---
 title: Stories & Methods
 date: 2022-02-23
+lang: en
+pair: historie-i-metody
 ---
 
 Hi!

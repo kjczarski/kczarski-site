@@ -4,7 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stories & Methods, Krzysztof Czarski</title>
+<meta name="description" content="Essays and notes by Krzysztof (Chris) Czarski.">
 <link rel="stylesheet" href="../assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');if(!t){try{t=matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':''}catch(e){}}if(t==='dark')document.documentElement.setAttribute('data-theme','dark')})();
+</script>
 </head>
 <body>
   <div class="wrap">
@@ -14,7 +18,9 @@
         <a class="xlink" href="../blog.html">Blog</a>
         <a class="xlink" href="../lessons.html">Lessons</a>
         <a class="xlink" href="../workshops.html">Workshops</a>
+        <a class="xlink lang" href="../pl/posts/historie-i-metody.html">PL</a>
       </nav>
+      <button type="button" class="theme" id="theme" aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12h2.5M19 12h2.5M5 5l1.8 1.8M17.2 17.2L19 19M19 5l-1.8 1.8M6.8 17.2L5 19"/></svg></button>
     </header>
     <main>
       <div class="hero">
@@ -53,6 +59,9 @@
         <span>Blog</span>
       </footer>
     </main>
+<script>
+document.getElementById('theme').addEventListener('click',function(){var h=document.documentElement;h.hasAttribute('data-theme')?h.removeAttribute('data-theme'):h.setAttribute('data-theme','dark');localStorage.setItem('theme',h.hasAttribute('data-theme')?'dark':'')});
+</script>
   </div>
 </body>
 </html>
