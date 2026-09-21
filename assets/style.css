@@ -45,7 +45,7 @@ section p:last-child{margin-bottom:0}
 dl.facts{margin:0}
 dl.facts>div{display:grid;grid-template-columns:132px 1fr;gap:22px;padding:13px 0;border-bottom:1px solid var(--line)}
 dl.facts>div:first-child{border-top:1px solid var(--line)}
-dl.facts dt{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:4px}
+dl.facts dt{font-weight:600;font-size:1rem;padding-top:2px}
 dl.facts dd{margin:0}
 
 ul.plain{list-style:none;padding:0;margin:0}
@@ -57,7 +57,7 @@ ul.plain li small{display:block;color:var(--muted);font-size:.92rem;font-weight:
 ul.reviews{list-style:none;padding:0;margin:0}
 ul.reviews li{padding:20px 0;border-bottom:1px solid var(--line)}
 ul.reviews li:first-child{border-top:1px solid var(--line)}
-ul.reviews p{margin:0 0 8px;font-size:1.05rem;max-width:60ch}
+ul.reviews p{margin:0 0 8px;font-size:1.05rem;max-width:60ch;font-style:italic}
 ul.reviews .who{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 ul.reviews .ctx{color:var(--muted);font-size:.85rem}
 .rating{margin:0 0 18px;color:var(--muted)}
