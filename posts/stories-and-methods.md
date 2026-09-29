@@ -45,4 +45,4 @@ Techniques like these do not work for everyone – but this is exactly why I use
 
 The ultimate goal is to make my students as passionate about language as I am.
 
-*Update, 2026: I wrote this in 2022. My methods have moved on since then. I now teach fully online, and a new post about how I teach today is on the way.*
+*Update, 2026: I wrote this in 2022. My methods have moved on since then. I now teach fully online, and I have written up [how I teach in 2026](how-i-teach-in-2026.html).*

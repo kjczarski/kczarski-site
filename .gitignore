@@ -1,0 +1,11 @@
+# font comparison scratch work (combo G was chosen; site.css is the production one)
+_typetest.html
+assets/fonts/fonts.css
+assets/fonts/asap-*.woff2
+assets/fonts/karma-*.woff2
+assets/fonts/literata-*.woff2
+assets/fonts/lora-*.woff2
+assets/fonts/sora-*.woff2
+assets/fonts/sharpie-*.woff2
+
+.DS_Store

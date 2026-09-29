@@ -1,0 +1,196 @@
+---
+title: How I teach in 2026
+date: 2026-09-29
+lang: en
+pair: jak-ucze-w-2026
+---
+
+I have taught English for over ten years. I hold CELTA and Cambridge C2, both passed with the highest grade, A. On Langu I am rated 5.0 out of 5 by 115 students, and the two things they mention most are great conversations and plenty of energy.
+
+My students have included a team leader in cancer drug research for the UK’s biggest company, a military officer, a few CEOs, a world-class magician, jobseekers, children who hated English, and more.
+
+Most of my students arrive the same way: somebody takes a few lessons, sees progress, mentions it to a colleague, and the colleague books. I do very little advertising.
+
+I’ve had cases where that happened within a school - people heard about my lessons from a friend, and asked to switch teachers to start learning with me.
+
+And when I finish a contract with a language school, students often ask me to continue teaching them. The contracts usually don’t allow that, but it feels good.
+
+But what makes the lessons effective? What are my secrets?
+
+Plenty of people can pass an English test or spend years learning in a school or on Duolingo, but cannot say a word. You have met them. They can do the exercises and they cannot do the job or have a chat abroad.
+
+There is a reason I care about that gap. When you speak a language without a translator, people choose to talk to you. Think about who you would rather have a long conversation with, or who you’d hire: someone who gets your jokes, metaphors, and subtexts immediately, or someone who needs to talk to you through Google Translate and misses half of the point?
+
+My English was how I got a good job in Dubai straight out of high school. It allowed me to build relationships with tonnes of absolutely amazing people. In today’s world, it is the most powerful skill I can think of.
+
+**If you read nothing else, read this:**
+
+* Your language goals come first.  
+* You do most of the talking.  
+* We speak English from the first minute.
+
+
+If you want to learn more, read on.
+
+**What’s inside:**
+
+- [What does a lesson actually look like?](#what-does-a-lesson-actually-look-like)
+- [Why not just use an app?](#why-not-just-use-an-app)
+- [What if I am too old, or too bad at languages?](#what-if-i-am-too-old-or-too-bad-at-languages)
+- [What happens between lessons?](#what-happens-between-lessons)
+- [What if the exam is the goal?](#what-if-the-exam-is-the-goal)
+- [What if you go too fast for me?](#what-if-you-go-too-fast-for-me)
+- [How do I know it’s working?](#how-do-i-know-its-working)
+- [What I learn from my students](#what-i-learn-from-my-students)
+- [When the lessons stop](#when-the-lessons-stop)
+- [Where we meet](#where-we-meet)
+
+## What does a lesson actually look like?
+
+Every lesson opens with a chat. Sometimes it lasts a minute, sometimes twenty. It is not small talk for its own sake. It gets you talking in English before anything deliberate happens. It is a warm-up.
+
+Then we work, and there are two ways this goes.
+
+Either we take a mistake I have already spotted in previous lessons and deal with it properly: work on it through exercises, examples, attempts. If we work with a text, it’s always as authentic as possible, ideally made by native speakers, for native speakers. No textbooks. No stuff made “for learners” if I can avoid it - the language there is often fake, dated, impractical. I often craft personalised exercises for students, too. It makes them way more memorable.
+
+Or we choose a piece of grammar and put you in a situation that makes you need it. To teach you the Past Simple I ask you about your last holiday. To teach you the “s” in Present Simple I ask you about your pet’s daily routine. The grammar comes out on its own.
+
+And in both cases I do not walk in and explain. Before I teach you something, I make sure you have already met it “in the wild” a few times. The wild is vlogs, songs, news articles, the news itself, whatever is actually on the internet, social media, the sort of things you would be looking at anyway. So when I finally name it, it is not a stranger walking into the room. It is you going, “ah, so that is what I was hearing”. Grammar explained after you have bumped into it is a relief. Grammar explained before that is a chore, and the brain doesn’t understand why it’s needed.
+
+Then we close. I look at where you actually got to. It is how I find out whether next week we fix the same thing, move on to something new, or push further into what you already have.
+
+You do most of the talking in my lessons.
+
+I try to talk as little as I can; this means I have over 10 years of experience in asking good questions. Clever young students sometimes work out that listening to me is easier than speaking themselves, so they start asking me about my methods and my life instead. I answer, and then I ask them about their views, how they learn, why they think I do it this way. There is an exception, though. If someone arrives tired and having a bad day, I talk more, play something, crack a joke, and let them listen for a while.
+
+Reading interesting, authentic materials, watching videos, and doing exercises are there to feed that conversation and to bring you fresh vocabulary and grammar. They are not the lesson.
+
+The lesson is the hour of English coming out of you.
+
+I do not stop at every mistake. But if you mean Tuesday and you say Thursday, I stop, because your future meeting can end up on the wrong day. If you drop a “the”, I usually let it pass if I understood you anyway. Unless we’re working on articles or you’re going for C2, in which case I will pick you up on it constantly. Some students want every error corrected and I understand the wish, but a conversation cut off every few words is a miserable way to spend an hour, and it won’t make you fluent. The art of conversation is about flow. The point of speaking is to be understood. Grammatical perfection is a tool, not the goal. I know when to correct you.
+
+Sometimes, usually somewhere around the third to the sixth month, students tell me that they don’t feel they’re learning. They feel like they have stopped moving. Part of the reason is because speaking English stops being tiring, and the vibes during the lesson are chill. But it’s also because the number of my corrections often stays the same as you get better. The mistakes I correct just get smaller and smaller. If I was interrupting you over word order in March, by June I am correcting you over something much finer, and the rate looks identical from where you are sitting. The bar moved up and you came with it. 
+
+## Why not just use an app?
+
+Because the app cannot do the push-ups for you.
+
+Say you want to be able to do a hundred push-ups. You can buy a book about push-ups, stretch properly, watch videos, download an app. Some of that will help you along. It will not give you the hundred push-ups. Only doing them will.
+
+If you want to speak English comfortably, talking to me is the push-ups (well, maybe less tiring). It’s the hour in which you have to speak, improvise, get something wrong, hear how it sounded, and try it again. Right now there is no app that gives you a natural conversation with a human being, and AI tools are built to make you feel good. To make good progress, you need to be uncomfortable sometimes. Talking to a robot teaches you to talk to a robot. The gamified apps teach you to play games.
+
+I use tech a lot. I stay up-to-date with the tools, I build them into the course, and I tell my students straight which ones are worth their time. I built an app myself because most of them were not any good. Duolingo is a decent habit and not much more than that. If you want to think about learning a language alongside AI rather than with a tutor, [I wrote about that separately](learning-with-ai.html).
+
+And regarding the costs: English is an extremely powerful tool. It can help you land a job in an international company, get a promotion, follow the news or the latest research in your field. It pays off quickly. I know it sounds like marketing here, but I honestly can’t think of a more impactful investment than English. It’s why I chose, and love, this job. 
+
+I’ve been learning languages myself all my life (currently Chinese!), because I find them so powerful.
+
+Why individual lessons? School English, in big groups, has its own logic. A class of twenty students means each person gets about a minute of speaking per lesson, and teachers often focus on the stuff that’s easy to teach. Grammar exercises and word lists might be simple to teach and easy to check. It is not the same as learning to speak. For that, 1 on 1 is definitely the best. The bigger the group, the slower the progress.
+
+## What if I am too old, or too bad at languages?
+
+The hardest part of a first lesson is not grammar. It is that a lot of people arrive convinced they can’t do it.
+
+I have taught several learners who were certain it’s “too late” for them - for some reason, ladies more often than men. One worked in a big pharmaceutical company. One had spent years working in the UK and thought she had forgotten it all. One coordinated teams in a warehouse. All of them told me, repeatedly and with some determination, that they could not really speak English. All of them were great company and we laughed a lot. Soon, all three were talking for almost the entire sixty minutes.
+
+The block was in their head, not in their English.
+
+The course does not start with a test. I ask your name, what you do, where you live, whether it is a city or a village, basic stuff. Every answer you give me hands me the next question. Before I accept that you cannot speak English, I check. Polish has borrowed so much from English; you already know *computer*, *conversation*, *music*, *weekend*, *restart*, *six*, *seven*. You can say *my name is…*. You know a few songs, even if you’re not sure about the lyrics. A genuine zero is rare. If it is real, we start at the very beginning, and I will use Peppa Pig if that is what works, because stuff made for children often sticks better than black and white resources made for adults.
+
+And we do it in English. I can explain things in Polish if I really have to, but the lesson stays English, because the moment we settle into a comfortable chat in Polish the hour is gone and you have not practised anything. So if you want to start using Polish to describe an event you went to during the weekend, I will say “can you tell me in English, please?”. Sometimes students go “No, just quickly in Polish, it’s too difficult…”. No. You’re on the lesson to speak English. I can help you build the sentences. I can give you the vocabulary. I might use Polish sometimes for explaining difficult grammar or clarifying something. But we speak English, 99.9%.
+
+A boy I taught a few years ago believed he was bad at languages - he was about to fail the English class, and he hated the language. I found his passion, gaming, and asked him a lot of questions about it. We watched two seasons of Breaking Bad because he loved it. He shared his views on politics, I showed him Chomsky, we shared stories, cracked jokes, laughed at memes. He went from a 2 on the Polish scale to a 6 (won an English competition). He told me afterwards that I was one of the most influential people in his life at that age. He’s studying international relations now, and it’s one of the cases I’m most proud of in terms of the difference made.
+
+By the way, my mum is a similar story. I don’t teach her, but when she was sure she could not speak English, I pushed her to just try, and explained that “yes, she can”. She’s now fairly fluent. For some reason, people love to talk about how they can never do it. I always invite them to just speak English, instead of talking about speaking English. Yes, it’s harder. Yes, you might make mistakes. It’s still the only way, and you’ll love where it leads.
+
+So if you think you are too old, or too far past the point where this works, come and argue.
+
+If you want to convince me that you cannot learn, I will have you do it in English.
+
+And, by the way, my other big passion is juggling. Juggling is all about failure. You drop, drop, and drop. Until, one day, you don’t. This is how we learn. My lessons are a comfortable environment where you can make plenty of mistakes. Until, one day, you don’t.
+
+## What happens between lessons?
+
+One hour a week on its own is not enough. I say that on the first lesson, and then we work out what the rest of your week looks like, to find ways to squeeze in as much English as possible.
+
+So, Instagram reels in English instead of Polish. Netflix in English (Polish subtitles in the beginning). The phone switched to English. Reuters, a couple of headline lists a week, or one article between lessons. Music you actually like. A vlog, or an interview with someone you admire. And it is chosen for your motivations, not picked at random. The entire process is about you reaching your goal. And you learn English in order to be able to use it, so… why not just start using it, whenever you can?
+
+I’ll also be making notes for you (I invite people to make their own as well if they want, it always helps remember). Everybody gets them after every lesson, however the lesson went. The most important things are at the top. You get them by email or in a shared document, whatever suits you.
+
+Homework has no default. I ask how much time you have and whether you want any at all, and I only give it if you ask; homework not done is worse than none, and I don’t enjoy listening to excuses that much. If you do want it, it can be something interesting to read, a bit of writing, a small grammar drill, or something more creative. If you tell me you have five hours before the next lesson, I will give you five hours of good work. But it’s usually not the type of homework you had in school. Find a song you like, listen to it, read the lyrics, and bring me five new words and their definitions. Find a cool new English-speaking content creator and bring me their best video. Read the latest article about your passion or field of expertise.
+
+If you would rather not get specific homework, that is your right, and then we’ll look for other ways to immerse you in the language. Watch something, listen to something, read something, in English. Whatever, but every hour of contact with English between the lessons speeds up the process dramatically. And it’s good to build English into your life to prepare for when you’re fluent.
+
+If you have no time, we will find one thing you already do and put English inside it. I won’t hand you a routine you cannot keep.
+
+## What if the exam is the goal?
+
+Mostly my lessons are about getting you talking, or talking more fluently and about specific subjects. Sometimes you need a specific result and the method changes. If you are preparing for a Cambridge exam you’re in the right place. I have a good track record with preparing people for them, those exams are well built, and quite practical; you end up speaking really proper English. Matura, the Polish eighth class exam, STANAG, the same applies. 
+
+There are three versions of exam prep with me:  
+- Half conversation, half exam work. We balance the two. We chat, then we do exercises. Keeps you fluent while moving you towards your goal quickly.  
+- Conversation lessons built around exactly what the exam asks for, so the vocabulary and grammar arrive in the context you will meet them in. Need conditionals for the matura? I’ll show you how they work, and then ask you plenty of ‘what if’ questions.  
+- The laser-focus version: two minutes of chat and then straight into mock papers, the way I worked when I was preparing for CPE myself. If getting a good score on an exam is your goal, I’m happy to go hardcore  :) It works.
+
+One student came to me to prepare for the matura. He was dyslexic, unsatisfied with his results at school, and stressed about the exam he needed for uni. For a few months, we worked solely on matura sheets, one after another. We worked hard, and he passed with a really good result. After that, we completely changed directions; he told me he wants to go abroad to volunteer as a mountain rescuer the following summer. I immediately rebuilt the lessons around that instead. He came alive in a new way. In the end he had a high matura score and was prepared to confidently go save lives abroad, while I learned a great deal about mountain rescue. It was a big pivot in terms of lesson styles, but both worked perfectly.
+
+The point is: we work on your goals, whatever they are.
+
+## What if you go too fast for me?
+
+I guess there is this one thing about how I teach you should know before we start.
+
+Sometimes I go faster and deeper than you are ready for. I forget that not everyone is all about languages, or has free time, or has the appetite for being pushed. Most people adjust quickly. Some love it. We slow down if it doesn’t work.
+
+But intensive learning worked for me. The Japanese section at the Institute of Applied Linguistics in Warsaw was new, and the professors were not sure what tempo to hold, so they kept going faster and faster. People were crying and nobody slept. You could recognise students from the Japanese section because they were constantly practising their writing. And I mean constantly.
+
+We went from nothing to Japanese-only lessons and textbooks in a year.
+
+I have never learned as fast as I did there, though I would rather not put any of my students through the same process; it was honestly a bit brutal.
+
+I really enjoy working with motivated learners. One time, a young cellist studying at the University of Music came to the lessons hoping to learn to talk to her international classmates. We built her vocabulary out of her life and the classical music world, and then moved into material I would not put in front of a beginner: cultural nuances, sociology, pedagogy, art; stuff she was passionate about. We worked on understanding people speaking with a Chinese accent. She watched a lecture on cognitive science for homework. Not only did she make excellent progress, finally being able to chat with the international students; every lesson ended with an honest smile and gratitude.
+
+If you need English for one specific situation, one specific field, or one specific exam, that is what we build the course around. Specialist vocabulary, getting to C1 and C2, technical stuff, IT (I’m really into LLMs by the way), sales, negotiation, debates, reading papers. I’m more than happy to teach more advanced grammar, vocab, and skills, and run a very intensive course, if you want. 
+
+Jumping in is how you learn to swim. The decision is yours. But I would rather take you out of your comfort zone than slow you down.
+
+## How do I know it’s working?
+
+The best measure is your life. Are you more comfortable with using English in your work? Did you manage to make some new friends on your holiday abroad? Were you able to understand what your favourite artist is singing about? This matters more than any score on a test.
+
+I like something more objective as well, now and then. Every once in a while we do a real Cambridge section, between B1 and C2, so the level is not only my impression. The CEFR levels are worth trusting as they describe what someone can do rather than how many hours they have logged. 
+
+But [Goodharting](https://en.wikipedia.org/wiki/Goodhart%27s_law) is a very real phenomenon. A long Duolingo streak and a good mock paper result are not the same skill as holding a conversation or reading Twitter without translating anything. I’ve seen people waste years collecting days in an app, memorising vocab they’ll never use, or doing grammar exercises about constructions most native speakers have no idea exist.
+
+Another trap is this: some learners (often around B1) tend to overestimate how much they understand. Someone tells me they follow everything, they just cannot speak, so I play them a video and ask what it was about, and they describe only what they saw - it turns out they might have caught some words, but not the point. Or songs, especially rap - many overconfident learners who “understand everything” can’t explain the lyrics of a single song, or even a single line. Same with the news - truly understanding a Reuters headline is harder than it seems. People don’t know how much they don’t understand, unless somebody tells them. Don’t get me wrong: a big part of my lessons is building confidence. I just want students to be aware of their actual level, strengths, and weaknesses.
+
+## What I learn from my students
+
+This is probably my favourite part of the job and I do not fully understand why most teachers don’t mention it.
+
+A team leader in cancer drug development showed me some great books, and explained his responsibilities. I taught him how to describe a process, and he taught me how the industry works. An officer who loved his job described military traditions, culture, and the realities of the job (without the sensitive stuff, of course), and with the war in Ukraine going on it was genuinely interesting to hear. An officer from the Central Investigation Bureau of Police shared stories about raids on illegal drug labs, taught me bits of the history of Poland’s organised crime, and I gave him the vocabulary for what he had seen. A gardening centre owner was excited to share the dirty realities of keeping chickens and growing tomatoes - a new world for me. A cold calling expert was learning to explain his methods to future clients just as I was learning to sell my own software.
+
+In a warehouse once, a student recommended me to a colleague, who recommended me to another. I ended up teaching about seven people in that one company, all in different roles. The language was specialist and specific, and I learned logistics from several sides of it. They worked with foreign staff and the lessons were making their lives easier week to week, which is exactly what I love to see.
+
+My students are often the experts in the room.
+
+I am there to teach them English. I usually end up learning something as well.
+
+## When the lessons stop
+
+One of my students, Poland’s top magician and a friend of mine, was getting ready for a performance on America’s Got Talent. We had half-hour lessons five days a week, and we were working on two things at once: the act, and being able to speak without thinking about it.
+
+The lessons stopped because they worked. He went to LA, talked comfortably, and did his act in English smoothly. I was no longer needed, which was the best possible outcome.
+
+That is how I work. The lessons build towards your goal, so when you reach it there is nothing left to sell you. I am not going to slow you down to keep you as a customer forever. I’m going to do my best to get you to your objective ASAP. Though often, when that happens, it turns out there are next goals, higher levels, and bigger dreams.
+
+## Where we meet
+
+Since Covid I’ve been teaching online, and it turned out better than I had expected. I was sure a webcam and half a second of delay would wreck conversation. It has not. A lot of people talk more freely from their own desk than they would in a classroom or an unfamiliar spot. We can use whatever you like (usually Google Meet), so there is nothing to install. A camera helps a little, so I usually keep mine on, but if you would rather not be on video that is completely fine. A microphone is not optional. You need to talk.
+
+I still like meeting in person (in Warsaw) and we can mix the two. In your office, in a café, in your flat. Talking face to face offers something online lessons don’t, but both work.
+
+I offer a free 30-minute first lesson. You get a taste of my methods, and I learn about what you want to achieve.
+
+All you need for the first lesson is the mic and a goal.  
+Usually the goal is speaking, and it usually comes sooner than you expect.

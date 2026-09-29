@@ -4,9 +4,10 @@
 Usage:
     python3 build.py
 
-Static pages (index, lessons, workshops) read their body from
-parts/_<page>-<lang>.html. The blog is generated from posts/*.md, and each
-post may declare:
+Static pages (index, lessons, workshops, cv) read their body from
+parts/_<page>-<lang>.html. A page with no <lang> fragment yet falls back to
+the English one, so pl/cv.html is an untranslated copy until parts/_cv-pl.html
+exists. The blog is generated from posts/*.md, and each post may declare:
 
     ---
     title: My title
@@ -37,15 +38,16 @@ SWITCH_LABEL = {"en": "PL", "pl": "EN"}
 # Nav link sets per kind of page, keys refer to page names.
 NAV = {
     "index": [],
-    "lessons": ["workshops", "blog"],
-    "workshops": ["lessons", "blog"],
-    "blog": ["lessons", "workshops"],
-    "post": ["blog", "lessons", "workshops"],
+    "lessons": ["workshops", "blog", "cv"],
+    "workshops": ["lessons", "blog", "cv"],
+    "blog": ["lessons", "workshops", "cv"],
+    "cv": ["lessons", "workshops", "blog"],
+    "post": ["blog", "lessons", "workshops", "cv"],
 }
 
 LABELS = {
-    "en": {"lessons": "Lessons", "workshops": "Workshops", "blog": "Blog"},
-    "pl": {"lessons": "Lekcje", "workshops": "Warsztaty", "blog": "Blog"},
+    "en": {"lessons": "Lessons", "workshops": "Workshops", "blog": "Blog", "cv": "CV"},
+    "pl": {"lessons": "Lekcje", "workshops": "Warsztaty", "blog": "Blog", "cv": "CV"},
 }
 
 PAGE_TITLES = {
@@ -54,12 +56,14 @@ PAGE_TITLES = {
         "lessons": "Lessons, Krzysztof Czarski",
         "workshops": "Workshops, Krzysztof Czarski",
         "blog": "Blog, Krzysztof Czarski",
+        "cv": "CV, Krzysztof Czarski",
     },
     "pl": {
         "index": "Krzysztof Czarski",
         "lessons": "Lekcje, Krzysztof Czarski",
         "workshops": "Warsztaty, Krzysztof Czarski",
         "blog": "Blog, Krzysztof Czarski",
+        "cv": "CV, Krzysztof Czarski",
     },
 }
 
@@ -69,20 +73,22 @@ DESC = {
         "lessons": "Private English lessons and conversation online. Method: talk, correct, talk. CPE and CELTA with grade A.",
         "workshops": "Workshops for Erasmus+ and similar programmes: AI, startups, creative practice, communication, confidence.",
         "blog": "Essays and notes by Krzysztof (Chris) Czarski.",
+        "cv": "CV of Krzysztof (Chris) Czarski: teaching, workshop facilitation, translation, and what he has done.",
     },
     "pl": {
         "index": "Krzysztof (Chris) Czarski: prywatne lekcje angielskiego i warsztaty Erasmus+.",
         "lessons": "Prywatne lekcje angielskiego i rozmowy online. Metoda: rozmowa, poprawki, rozmowa. CPE i CELTA z oceną A.",
         "workshops": "Warsztaty dla Erasmus+ i podobnych programów: AI, startupy, praktyka twórcza, komunikacja, pewność siebie.",
         "blog": "Eseje i notatki Krzysztofa (Chrisa) Czarskiego.",
+        "cv": "CV of Krzysztof (Chris) Czarski: teaching, workshop facilitation, translation, and what he has done.",
     },
 }
 
 FOOTER_TAG = {
     "en": {"index": None, "lessons": "Private English lessons, online",
-           "workshops": "Workshops, Erasmus+", "blog": "Blog", "post": "Blog"},
+           "workshops": "Workshops, Erasmus+", "blog": "Blog", "cv": "CV", "post": "Blog"},
     "pl": {"index": None, "lessons": "Lekcje angielskiego online",
-           "workshops": "Warsztaty, Erasmus+", "blog": "Blog", "post": "Blog"},
+           "workshops": "Warsztaty, Erasmus+", "blog": "Blog", "cv": "CV", "post": "Blog"},
 }
 
 MONTHS = {
@@ -103,9 +109,7 @@ THEME_INIT = (
     '<script>\n'
     "(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}"
     "if(t==='dark')document.documentElement.setAttribute('data-theme','dark');"
-    "else if(t==='light'){"
-    "}else{try{matchMedia('(prefers-color-scheme: dark)').matches&&document.documentElement.setAttribute('data-theme','dark')}catch(e){}}}"
-    ")();\n"
+    "})();\n"
     "</script>\n"
 )
 
@@ -132,17 +136,31 @@ def inline(s):
     s = re.sub(r"\*(.+?)\*", r"<em>\1</em>", s)
     s = re.sub(r"\[(.+?)\]\((.+?)\)", r'<a href="\2">\1</a>', s)
     s = re.sub(r"`(.+?)`", r"<code>\1</code>", s)
+    s = re.sub(r"==(.+?)==", r'<mark class="hl">\1</mark>', s)
     return s
 
 
 def md_to_html(md):
     out, in_ul = [], False
+    seen_ids = {}
 
     def close_ul():
         nonlocal in_ul
         if in_ul:
             out.append("</ul>")
             in_ul = False
+
+    def heading_id(text):
+        s = re.sub(r"[*_`\[\]()]", "", text).lower()
+        s = re.sub(r"['’]", "", s)
+        for src, dst in (("ą", "a"), ("ć", "c"), ("ę", "e"), ("ł", "l"),
+                         ("ń", "n"), ("ó", "o"), ("ś", "s"), ("ź", "z"),
+                         ("ż", "z")):
+            s = s.replace(src, dst)
+        base = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+        n = seen_ids.get(base, 0)
+        seen_ids[base] = n + 1
+        return base if not n else "%s-%d" % (base, n + 1)
 
     for raw in md.split("\n"):
         line = raw.rstrip()
@@ -151,13 +169,13 @@ def md_to_html(md):
             continue
         if line.startswith("### "):
             close_ul()
-            out.append("<h3>%s</h3>" % inline(line[4:]))
+            out.append('<h3 id="%s">%s</h3>' % (heading_id(line[4:]), inline(line[4:])))
         elif line.startswith("## "):
             close_ul()
-            out.append("<h2>%s</h2>" % inline(line[3:]))
+            out.append('<h2 id="%s">%s</h2>' % (heading_id(line[3:]), inline(line[3:])))
         elif line.startswith("# "):
             close_ul()
-            out.append("<h2>%s</h2>" % inline(line[2:]))
+            out.append('<h2 id="%s">%s</h2>' % (heading_id(line[2:]), inline(line[2:])))
         elif re.match(r"^!\[", line):
             m = re.match(r"^!\[(.*?)\]\((.*?)\)$", line)
             out.append('<img src="%s" alt="%s" loading="lazy">' % (m.group(2), m.group(1)))
@@ -207,6 +225,9 @@ def header(lang, out, kind, keys, post_key=None):
         switch_target = LANG_DIR[other] + "index.html"
     elif kind == "post" and post_key:
         switch_target = LANG_DIR[other] + "posts/" + post_key + ".html"
+    elif kind == "post":
+        # No translation yet: send the reader to the blog listing, not a dead post URL.
+        switch_target = LANG_DIR[other] + "blog.html"
     else:
         switch_target = LANG_DIR[other] + kind + ".html"
     links = ['        <a class="xlink" href="%s">%s</a>\n'
@@ -226,6 +247,7 @@ def header(lang, out, kind, keys, post_key=None):
 
 def page(lang, title, desc, out, head, main, tagline):
     css = rel(out, "assets/style.css")
+    fonts = rel(out, "assets/fonts/site.css")
     footer = ""
     if tagline:
         footer = (
@@ -243,6 +265,7 @@ def page(lang, title, desc, out, head, main, tagline):
         "<title>%s</title>\n"
         '<meta name="description" content="%s">\n'
         '<link rel="stylesheet" href="%s">\n'
+        '<link rel="stylesheet" href="%s">\n'
         "%s"
         "</head>\n"
         "<body>\n"
@@ -258,7 +281,7 @@ def page(lang, title, desc, out, head, main, tagline):
         "  </div>\n"
         "</body>\n"
         "</html>\n"
-    ) % (lang, title, desc, css, THEME_INIT, head, main, footer, THEME_HANDLER)
+    ) % (lang, title, desc, fonts, css, THEME_INIT, head, main, footer, THEME_HANDLER)
 
 
 def build():
@@ -281,13 +304,15 @@ def build():
         posts = [e for e in entries if e["lang"] == lang]
         posts.sort(key=lambda e: (e["date"], e["title"].lower()), reverse=True)
 
-        # Static pages from parts/ fragments (index, lessons, workshops).
-        for page_name in ("index", "lessons", "workshops"):
-            if page_name == "blog":
-                continue
+        # Static pages from parts/ fragments (index, lessons, workshops, cv).
+        for page_name in ("index", "lessons", "workshops", "cv"):
             frag = PARTS / ("_%s-%s.html" % (page_name, lang))
+            if not frag.exists():
+                # No translation yet: fall back to the English fragment.
+                frag = PARTS / ("_%s-en.html" % page_name)
             main = frag.read_text(encoding="utf-8").strip()
             out = d + page_name + ".html"
+            main = main.replace("{{a}}", rel(out, "assets") + "/")
             (ROOT / out).write_text(
                 page(lang, PAGE_TITLES[lang][page_name], DESC[lang][page_name],
                      out,

@@ -1,0 +1,196 @@
+---
+title: Jak uczę w 2026
+date: 2026-09-29
+lang: pl
+pair: how-i-teach-in-2026
+---
+
+Uczę angielskiego od ponad dziesięciu lat. Mam CELTA i Cambridge C2, oba zdane z najwyższą oceną, A. Na Langu 115 uczniów oceniło mnie na 5,0 z 5. Najczęściej wspominają o świetnych rozmowach i dużej dawce energii.
+
+Wśród moich uczniów byli lider zespołu badającego leki na raka w największej brytyjskiej firmie, oficer, kilku prezesów, światowej klasy iluzjonista, osoby szukające pracy, dzieci, które nienawidziły angielskiego, i wiele innych osób.
+
+Większość uczniów trafia do mnie podobnie: ktoś bierze kilka lekcji, widzi postępy, wspomina o nich koledze z pracy, a ten zapisuje się na lekcje. Prawie się nie reklamuję.
+
+Zdarzało się to nawet w obrębie jednej szkoły językowej. Ktoś słyszał o moich lekcjach od znajomego i prosił o zmianę nauczyciela, żeby zacząć uczyć się ze mną.
+
+A kiedy kończy mi się umowa ze szkołą językową, uczniowie często pytają, czy mogę nadal ich uczyć. Umowy zwykle na to nie pozwalają, ale miło to słyszeć.
+
+Co jednak sprawia, że te lekcje działają? Jakie mam sekrety?
+
+Mnóstwo ludzi potrafi zdać test z angielskiego albo spędzić lata na nauce w szkole czy na Duolingo, a potem nie potrafi wydusić z siebie słowa. Znasz takie osoby. Rozwiązują ćwiczenia, ale nie umieją wykonać zadania w pracy ani pogadać z kimś za granicą.
+
+Nie bez powodu zależy mi na tej różnicy. Kiedy mówisz w czyimś języku bez pomocy tłumacza, ludzie chcą z tobą rozmawiać. Pomyśl, z kim wolisz odbyć długą rozmowę albo kogo zatrudnić: osobę, która od razu łapie twoje żarty, metafory i aluzje, czy kogoś, z kim musisz rozmawiać przez Google Translate i do kogo nie dociera połowa tego, co mówisz?
+
+Dzięki angielskiemu dostałem dobrą pracę w Dubaju zaraz po liceum. Pozwolił mi też nawiązać bliskie relacje z mnóstwem absolutnie wspaniałych ludzi. W dzisiejszym świecie nie przychodzi mi do głowy bardziej przydatna umiejętność.
+
+**Jeśli nie przeczytasz niczego więcej, przeczytaj to:**
+
+* Twoje cele językowe są najważniejsze.  
+* To ty mówisz przez większość czasu.  
+* Mówimy po angielsku od pierwszej minuty.
+
+
+Jeśli chcesz wiedzieć więcej, czytaj dalej.
+
+**Co znajdziesz w środku:**
+
+- [Jak właściwie wygląda lekcja?](#jak-wlasciwie-wyglada-lekcja)
+- [Dlaczego nie wystarczy aplikacja?](#dlaczego-nie-wystarczy-aplikacja)
+- [A jeśli jestem za stary albo nie mam talentu do języków?](#a-jesli-jestem-za-stary-albo-nie-mam-talentu-do-jezykow)
+- [Co dzieje się między lekcjami?](#co-dzieje-sie-miedzy-lekcjami)
+- [A jeśli celem jest egzamin?](#a-jesli-celem-jest-egzamin)
+- [A jeśli tempo będzie za szybkie?](#a-jesli-tempo-bedzie-za-szybkie)
+- [Skąd wiadomo, że to działa?](#skad-wiadomo-ze-to-dziala)
+- [Czego uczę się od moich uczniów](#czego-ucze-sie-od-moich-uczniow)
+- [Kiedy lekcje się kończą](#kiedy-lekcje-sie-koncza)
+- [Gdzie się spotykamy](#gdzie-sie-spotykamy)
+
+## Jak właściwie wygląda lekcja?
+
+Każdą lekcję zaczynamy od rozmowy. Czasem trwa minutę, czasem dwadzieścia. Nie chodzi o pogawędkę dla samej pogawędki. Dzięki niej zaczynasz mówić po angielsku, zanim przejdziemy do zaplanowanej pracy. To rozgrzewka.
+
+Potem bierzemy się do pracy. Może ona wyglądać na dwa sposoby.
+
+Albo wracamy do błędu, który zauważyłem na poprzednich lekcjach, i porządnie się nim zajmujemy: ćwiczymy, przyglądamy się przykładom, próbujesz od nowa. Jeśli pracujemy z tekstem, jest on możliwie autentyczny. Najlepiej, żeby stworzyli go native speakerzy dla innych native speakerów. Bez podręczników. Unikam materiałów przygotowanych „dla uczących się”, kiedy tylko mogę, bo język bywa w nich sztuczny, przestarzały i nieprzydatny. Często tworzę też spersonalizowane ćwiczenia. Dzięki temu dużo łatwiej je zapamiętać.
+
+Albo wybieramy zagadnienie gramatyczne i stawiam cię w sytuacji, w której musisz go użyć. Żeby nauczyć cię Past Simple, pytam o twoje ostatnie wakacje. Żeby nauczyć cię końcówki „s” w Present Simple, pytam o codzienną rutynę twojego zwierzaka. Gramatyka pojawia się sama.
+
+W obu przypadkach nie zaczynam od wykładu. Zanim czegoś cię nauczę, dbam o to, żebyś już kilka razy spotkał to poza salą lekcyjną, w prawdziwym języku. Na vlogach, w piosenkach, artykułach i wiadomościach, w internecie i mediach społecznościowych. W rzeczach, na które i tak byś trafił. Kiedy w końcu podaję nazwę danej konstrukcji, nie jest już obcą osobą wchodzącą do pokoju. Myślisz raczej: „Aha, więc to właśnie słyszałem”. Wyjaśnienie gramatyki, na którą już się natknąłeś, przynosi ulgę. Wcześniejsze wyjaśnianie jest przykrym obowiązkiem, a mózg nie rozumie, po co mu to.
+
+Na koniec patrzę, dokąd udało ci się dojść. Dzięki temu wiem, czy w następnym tygodniu wracamy do tego samego problemu, przechodzimy do czegoś nowego, czy zagłębiamy się w to, co już umiesz.
+
+Na moich lekcjach to ty mówisz przez większość czasu.
+
+Staram się mówić jak najmniej. Oznacza to, że mam ponad 10 lat doświadczenia w zadawaniu dobrych pytań. Sprytni młodzi uczniowie czasem odkrywają, że łatwiej jest słuchać mnie, niż mówić samemu. Zaczynają więc pytać o moje metody i życie. Odpowiadam, a potem pytam ich o zdanie, o to, jak się uczą i dlaczego ich zdaniem robię to właśnie tak. Jest jednak wyjątek. Jeśli ktoś przychodzi zmęczony po kiepskim dniu, mówię więcej, puszczam coś, rzucam żartem i pozwalam mu przez chwilę słuchać.
+
+Ciekawe, autentyczne materiały do czytania, filmy i ćwiczenia mają podtrzymywać tę rozmowę oraz dostarczać ci nowego słownictwa i gramatyki. Nie są lekcją.
+
+Lekcją jest ta godzina, podczas której mówisz po angielsku.
+
+Nie zatrzymuję cię przy każdym błędzie. Ale jeśli masz na myśli wtorek, a mówisz czwartek, zatrzymam cię, bo twoje przyszłe spotkanie może przez to wypaść nie tego dnia. Jeśli pominiesz „the”, zwykle puszczę to mimo uszu, o ile i tak cię rozumiem. Chyba że akurat pracujemy nad przedimkami albo celujesz w C2. Wtedy będę zwracać na to uwagę bez przerwy. Niektórzy uczniowie chcą, żebym poprawiał każdy błąd, i rozumiem to. Ale rozmowa przerywana co kilka słów to okropny sposób na spędzenie godziny. Nie pomoże ci też mówić płynnie. Sztuka konwersacji polega na swobodnym toku rozmowy. Mówisz po to, żeby ktoś cię zrozumiał. Gramatyczna perfekcja jest narzędziem, nie celem. Wiem, kiedy cię poprawić.
+
+Czasem, zwykle gdzieś między trzecim a szóstym miesiącem, uczniowie mówią mi, że nie czują, żeby się uczyli. Wydaje im się, że stoją w miejscu. Po części dlatego, że mówienie po angielsku przestaje ich męczyć, a atmosfera na lekcji jest na luzie. Ale również dlatego, że choć radzisz sobie coraz lepiej, liczba moich poprawek często się nie zmienia. Błędy, które poprawiam, są po prostu coraz mniejsze. Jeśli w marcu przerywałem ci przez szyk zdania, w czerwcu poprawiam już dużo subtelniejsze rzeczy. Z twojej perspektywy częstotliwość poprawek wygląda tak samo. Poprzeczka poszła w górę, a ty razem z nią.
+
+## Dlaczego nie wystarczy aplikacja?
+
+Bo aplikacja nie zrobi za ciebie pompek.
+
+Powiedzmy, że chcesz dojść do stu pompek. Możesz kupić książkę o pompkach, porządnie się rozciągać, oglądać filmy i pobrać aplikację. Część z tych rzeczy ci pomoże. Ale żadna nie zrobi pompek za ciebie. Musisz je wykonać samodzielnie.
+
+Jeśli chcesz swobodnie mówić po angielsku, rozmowa ze mną jest odpowiednikiem robienia pompek (choć może trochę mniej męczącym). To godzina, podczas której musisz mówić, improwizować, popełnić błąd, usłyszeć, jak to zabrzmiało, i spróbować jeszcze raz. Na razie nie ma aplikacji, która da ci naturalną rozmowę z człowiekiem, a narzędzia AI są projektowane tak, żeby było ci miło. Żeby robić solidne postępy, czasem musisz poczuć się niekomfortowo. Rozmowa z robotem uczy rozmawiać z robotem. Aplikacje z grami uczą grać w gry.
+
+Dużo korzystam z technologii. Jestem na bieżąco z narzędziami, włączam je do nauki i mówię uczniom wprost, na które warto poświęcać czas. Sam zbudowałem aplikację, bo większość istniejących nie była zbyt dobra. Duolingo pomaga wyrobić nawyk, ale niewiele więcej. Jeśli zastanawiasz się nad nauką języka z AI zamiast z nauczycielem, [napisałem o tym osobno](nauka-z-ai.html).
+
+A jeśli chodzi o koszty: angielski to niezwykle przydatne narzędzie. Może pomóc ci zdobyć pracę w międzynarodowej firmie, awansować, śledzić wiadomości albo najnowsze badania w twojej dziedzinie. Szybko się zwraca. Wiem, że zaczyna to brzmieć jak reklama, ale naprawdę nie przychodzi mi do głowy inwestycja, która mogłaby zmienić więcej niż nauka angielskiego. Dlatego wybrałem tę pracę i dlatego ją kocham.
+
+Sam uczę się języków przez całe życie (obecnie chińskiego!), bo widzę, jak wiele dają.
+
+Dlaczego lekcje indywidualne? Nauka angielskiego w szkole, w dużej grupie, rządzi się własnymi prawami. W klasie dwudziestoosobowej na każdego przypada mniej więcej minuta mówienia podczas lekcji, a nauczyciele często skupiają się na tym, co łatwo uczyć. Ćwiczenia gramatyczne i listy słówek mogą być proste do przeprowadzenia i sprawdzenia. To nie to samo co nauka mówienia. Do niej zdecydowanie najlepsze są lekcje 1 na 1. Im większa grupa, tym wolniejsze postępy.
+
+## A jeśli jestem za stary albo nie mam talentu do języków?
+
+Najtrudniejszą częścią pierwszej lekcji nie jest gramatyka. Jest nią przekonanie wielu osób, że sobie nie poradzą.
+
+Uczyłem kilka osób pewnych, że dla nich jest już „za późno”. Z jakiegoś powodu częściej były to kobiety niż mężczyźni. Jedna pracowała w dużej firmie farmaceutycznej. Inna przez lata pracowała w Wielkiej Brytanii i uważała, że wszystko zapomniała. Jeszcze inna koordynowała zespoły w magazynie. Wszystkie mówiły mi wielokrotnie i z pewnym uporem, że tak naprawdę nie potrafią mówić po angielsku. Ze wszystkimi świetnie mi się rozmawiało i dużo się śmialiśmy. Wkrótce każda z nich mówiła przez prawie całe sześćdziesiąt minut.
+
+Blokada była w ich głowach, nie w ich angielskim.
+
+Nauka nie zaczyna się od testu. Pytam, jak masz na imię, czym się zajmujesz, gdzie mieszkasz, czy to miasto, czy wieś. Podstawowe rzeczy. Każda twoja odpowiedź podsuwa mi następne pytanie. Zanim przyjmę, że nie potrafisz mówić po angielsku, sprawdzam to. Polski zapożyczył tyle z angielskiego, że znasz już *computer*, *conversation*, *music*, *weekend*, *restart*, *six*, *seven*. Potrafisz powiedzieć *my name is…*. Znasz kilka piosenek, nawet jeśli nie masz pewności, co dokładnie jest w tekście. Prawdziwe zero zdarza się rzadko. Jeśli jednak tak jest, zaczniemy od samego początku. Sięgnę nawet po Peppa Pig, jeśli to zadziała, bo rzeczy stworzone dla dzieci często lepiej zapadają w pamięć niż czarno-białe materiały dla dorosłych.
+
+I robimy to po angielsku. Mogę coś wyjaśnić po polsku, jeśli naprawdę muszę, ale lekcja pozostaje po angielsku. Kiedy tylko zaczynamy wygodną pogawędkę po polsku, godzina mija, a ty niczego nie ćwiczysz. Jeśli więc zaczniesz opowiadać po polsku o wydarzeniu, na którym byłeś w weekend, zapytam: „Can you tell me in English, please?”. Czasem uczeń odpowiada: „Nie, tylko szybko po polsku, to za trudne…”. Nie. Jesteś na lekcji po to, żeby mówić po angielsku. Pomogę ci zbudować zdania. Podpowiem słownictwo. Czasem użyję polskiego, żeby wyjaśnić trudną gramatykę albo coś doprecyzować. Ale przez 99,9% czasu mówimy po angielsku.
+
+Chłopak, którego uczyłem kilka lat temu, uważał, że nie ma talentu do języków. Groziło mu niezdanie angielskiego i nienawidził tego języka. Odkryłem jego pasję, gry, i zacząłem dużo go o nie pytać. Obejrzeliśmy dwa sezony Breaking Bad, bo uwielbiał ten serial. Opowiadał mi o swoich poglądach politycznych, pokazałem mu Chomsky’ego, dzieliliśmy się historiami, żartowaliśmy, śmialiśmy się z memów. Przeszedł od 2 do 6 w polskiej skali ocen (wygrał konkurs z angielskiego). Powiedział mi później, że byłem jedną z osób, które miały na niego największy wpływ w tamtym okresie życia. Teraz studiuje stosunki międzynarodowe. To jedna z historii, z których jestem najbardziej dumny, kiedy myślę o tym, jaką różnicę udało mi się zrobić.
+
+Tak przy okazji, moja mama ma podobną historię. Nie uczę jej, ale kiedy była pewna, że nie potrafi mówić po angielsku, namawiałem ją, żeby po prostu spróbowała, i tłumaczyłem, że „owszem, potrafi”. Teraz mówi całkiem płynnie. Z jakiegoś powodu ludzie uwielbiają opowiadać, że nigdy im się to nie uda. Zawsze zapraszam ich, żeby zamiast mówić o mówieniu po angielsku, po prostu zaczęli mówić po angielsku. Tak, to trudniejsze. Tak, możesz popełniać błędy. Ale to jedyna droga, a spodoba ci się, dokąd prowadzi.
+
+Więc jeśli myślisz, że jesteś za stary albo że na ciebie ta metoda już nie zadziała, przyjdź i się ze mną pokłóć.
+
+Jeśli chcesz mnie przekonać, że nie potrafisz się nauczyć, każę ci to zrobić po angielsku.
+
+A tak przy okazji, moją drugą wielką pasją jest żonglowanie. Żonglowanie polega na ponoszeniu porażek. Upuszczasz piłki raz, drugi, trzeci. Aż pewnego dnia przestajesz. Tak się uczymy. Moje lekcje są bezpieczną przestrzenią, w której możesz popełniać mnóstwo błędów. Aż pewnego dnia przestajesz.
+
+## Co dzieje się między lekcjami?
+
+Sama godzina tygodniowo nie wystarczy. Mówię o tym na pierwszej lekcji, a potem sprawdzamy, jak wygląda reszta twojego tygodnia, żeby znaleźć miejsce na jak najwięcej angielskiego.
+
+Rolki na Instagramie po angielsku zamiast po polsku. Netflix po angielsku (na początku z polskimi napisami). Telefon przełączony na angielski. Reuters, kilka przeglądów nagłówków tygodniowo albo jeden artykuł między lekcjami. Muzyka, którą naprawdę lubisz. Vlog albo wywiad z kimś, kogo podziwiasz. Dobieramy to do twoich motywacji, nie losowo. Cały proces ma cię przybliżać do twojego celu. A skoro uczysz się angielskiego po to, żeby go używać, to… dlaczego nie zacząć używać go już teraz, kiedy tylko możesz?
+
+Będę też robić dla ciebie notatki (zachęcam do robienia własnych, jeśli chcesz, bo to zawsze pomaga zapamiętać). Dostajesz je po każdej lekcji, niezależnie od tego, jak poszła. Najważniejsze rzeczy są na górze. Wyślę je mailem albo zapiszę we wspólnym dokumencie, jak ci wygodniej.
+
+Nie ma domyślnej pracy domowej. Pytam, ile masz czasu i czy w ogóle jej chcesz. Zadaję ją tylko na twoją prośbę. Niezrobiona praca domowa jest gorsza niż jej brak, a słuchanie wymówek nie sprawia mi wielkiej przyjemności. Jeśli jednak jej chcesz, może to być coś ciekawego do przeczytania, trochę pisania, krótkie ćwiczenie gramatyczne albo coś bardziej kreatywnego. Jeśli powiesz mi, że przed następną lekcją masz pięć godzin, dam ci pięć godzin sensownej pracy. Zwykle nie jest to jednak praca domowa, jaką pamiętasz ze szkoły. Znajdź piosenkę, którą lubisz, posłuchaj jej, przeczytaj tekst i przynieś mi pięć nowych słów wraz z definicjami. Znajdź ciekawego twórcę nagrywającego po angielsku i pokaż mi jego najlepszy film. Przeczytaj najnowszy artykuł o swojej pasji albo dziedzinie, w której się specjalizujesz.
+
+Jeśli wolisz nie dostawać konkretnych zadań, masz do tego prawo. Poszukamy wtedy innych sposobów, żeby otoczyć cię językiem. Obejrzyj coś, posłuchaj czegoś, przeczytaj coś po angielsku. Cokolwiek. Każda godzina kontaktu z angielskim między lekcjami ogromnie przyspiesza naukę. Warto też wprowadzić angielski do swojego życia, żeby był w nim obecny, kiedy zaczniesz już mówić płynnie.
+
+Jeśli nie masz czasu, znajdziemy jedną rzecz, którą już robisz, i dodamy do niej angielski. Nie narzucę ci rutyny, której nie zdołasz utrzymać.
+
+## A jeśli celem jest egzamin?
+
+Moje lekcje służą głównie temu, żeby pomóc ci zacząć mówić albo mówić płynniej, również na konkretne tematy. Czasem jednak potrzebujesz określonego wyniku i wtedy metoda się zmienia. Jeśli przygotowujesz się do egzaminu Cambridge, jesteś w dobrym miejscu. Mam dobre wyniki w przygotowywaniu do tych egzaminów, są sensownie skonstruowane i całkiem praktyczne. Po drodze uczysz się mówić naprawdę poprawnym angielskim. To samo dotyczy matury, egzaminu ósmoklasisty i STANAG.
+
+Przygotowanie do egzaminu może u mnie wyglądać na trzy sposoby:  
+- Połowa czasu na rozmowę, połowa na zadania egzaminacyjne. Łączymy jedno z drugim. Najpierw rozmawiamy, potem robimy ćwiczenia. Zachowujesz płynność mówienia i szybko zbliżasz się do celu.  
+- Lekcje konwersacyjne zbudowane dokładnie wokół wymagań egzaminu. Słownictwo i gramatyka pojawiają się w kontekście, w którym spotkasz je na egzaminie. Potrzebujesz conditionals na maturę? Pokażę ci, jak działają, a potem zadam mnóstwo pytań typu „co by było, gdyby”.  
+- Wersja z pełnym skupieniem na egzaminie: dwie minuty rozmowy i od razu przechodzimy do arkuszy próbnych. Tak pracowałem, kiedy sam przygotowywałem się do CPE. Jeśli twoim celem jest dobry wynik na egzaminie, chętnie przejdę w tryb hardcore :) To działa.
+
+Jeden uczeń przyszedł do mnie, żeby przygotować się do matury. Miał dysleksję, nie był zadowolony ze swoich wyników w szkole i stresował się egzaminem potrzebnym mu na studia. Przez kilka miesięcy pracowaliśmy wyłącznie na arkuszach maturalnych, jeden po drugim. Pracowaliśmy ciężko i zdał z naprawdę dobrym wynikiem. Potem całkowicie zmieniliśmy kierunek. Powiedział mi, że następnego lata chce wyjechać za granicę i pracować jako wolontariusz w ratownictwie górskim. Od razu przebudowałem lekcje wokół tego celu. Ożył w zupełnie nowy sposób. Ostatecznie miał wysoki wynik z matury i był gotowy, żeby pewnie ruszyć ratować życie za granicą, a ja dowiedziałem się mnóstwa rzeczy o ratownictwie górskim. Styl lekcji zmienił się radykalnie, ale oba podejścia sprawdziły się doskonale.
+
+Właśnie o to chodzi: pracujemy nad twoimi celami, jakiekolwiek by były.
+
+## A jeśli tempo będzie za szybkie?
+
+Jest chyba jedna rzecz o moim sposobie nauczania, o której warto wiedzieć przed rozpoczęciem.
+
+Czasem idę szybciej i głębiej, niż jesteś na to gotowy. Zapominam, że nie wszyscy żyją językami, mają wolny czas albo lubią być popychani do przodu. Większość osób szybko się dostosowuje. Niektórzy to uwielbiają. Jeśli to nie działa, zwalniamy.
+
+Ale u mnie intensywna nauka się sprawdziła. Sekcja japońska w Instytucie Lingwistyki Stosowanej w Warszawie była nowa, a wykładowcy nie wiedzieli, jakie tempo przyjąć, więc szli coraz szybciej. Ludzie płakali i nikt nie spał. Studentów sekcji japońskiej można było rozpoznać po tym, że bez przerwy ćwiczyli pisanie. Naprawdę bez przerwy.
+
+W ciągu roku przeszliśmy od zera do zajęć i podręczników wyłącznie po japońsku.
+
+Nigdy nie uczyłem się tak szybko jak wtedy, choć wolałbym nie przeprowadzać żadnego z moich uczniów przez ten sam proces. Szczerze mówiąc, był trochę brutalny.
+
+Bardzo lubię pracować ze zmotywowanymi uczniami. Kiedyś przyszła do mnie młoda wiolonczelistka studiująca na Uniwersytecie Muzycznym. Chciała nauczyć się rozmawiać z kolegami i koleżankami z zagranicy. Budowaliśmy jej słownictwo wokół jej życia i świata muzyki klasycznej, a potem przeszliśmy do materiałów, których zwykle nie dałbym osobie początkującej: niuansów kulturowych, socjologii, pedagogiki, sztuki. Rzeczy, które ją pasjonowały. Ćwiczyliśmy rozumienie osób mówiących z chińskim akcentem. W ramach pracy domowej obejrzała wykład z kognitywistyki. Nie tylko zrobiła świetne postępy i w końcu mogła rozmawiać z zagranicznymi studentami. Każda lekcja kończyła się też szczerym uśmiechem i podziękowaniem.
+
+Jeśli potrzebujesz angielskiego do jednej konkretnej sytuacji, w jednej dziedzinie albo na jeden egzamin, wokół tego budujemy naukę. Specjalistyczne słownictwo, dojście do C1 i C2, zagadnienia techniczne, IT (swoją drogą, bardzo interesują mnie LLMy), sprzedaż, negocjacje, debaty, czytanie prac naukowych. Chętnie będę uczyć bardziej zaawansowanej gramatyki, słownictwa i umiejętności oraz poprowadzę bardzo intensywną naukę, jeśli tego chcesz.
+
+Pływać uczysz się, wskakując do wody. Decyzja należy do ciebie. Ale wolałbym wyprowadzić cię ze strefy komfortu, niż cię spowalniać.
+
+## Skąd wiadomo, że to działa?
+
+Najlepszą miarą jest twoje życie. Czy swobodniej używasz angielskiego w pracy? Czy udało ci się poznać nowych znajomych na wakacjach za granicą? Czy rozumiesz, o czym śpiewa twój ulubiony artysta? To ważniejsze niż jakikolwiek wynik testu.
+
+Od czasu do czasu lubię też sprawdzić coś bardziej obiektywnego. Co jakiś czas robimy prawdziwą część egzaminu Cambridge z poziomów B1-C2, żeby twój poziom nie był tylko moją oceną. Poziomom CEFR warto ufać, bo opisują, co dana osoba potrafi, a nie ile godzin nauki ma za sobą.
+
+Ale [Goodharting](https://en.wikipedia.org/wiki/Goodhart%27s_law) to jak najbardziej realne zjawisko. Długa seria dni na Duolingo i dobry wynik z arkusza próbnego to nie to samo co umiejętność prowadzenia rozmowy albo czytania Twittera bez tłumaczenia. Widziałem ludzi, którzy marnowali lata na zbieranie dni w aplikacji, zapamiętywanie słówek, których nigdy nie użyją, albo robienie ćwiczeń gramatycznych na konstrukcjach, o których istnieniu większość native speakerów nie ma pojęcia.
+
+Jest jeszcze jedna pułapka: niektórzy uczniowie, często w okolicach B1, przeceniają to, ile rozumieją. Ktoś mówi mi, że rozumie wszystko, tylko nie umie mówić. Puszczam mu więc film i pytam, o czym był. W odpowiedzi opisuje wyłącznie to, co zobaczył. Okazuje się, że wychwycił kilka słów, ale nie zrozumiał sensu. Podobnie jest z piosenkami, zwłaszcza rapem. Wielu pewnych siebie uczniów, którzy „rozumieją wszystko”, nie potrafi wyjaśnić tekstu jednej piosenki, a nawet jednej linijki. Tak samo z wiadomościami: naprawdę zrozumieć nagłówek Reuters bywa trudniej, niż się wydaje. Ludzie nie wiedzą, ile nie rozumieją, dopóki ktoś im tego nie pokaże. Żeby było jasne: budowanie pewności siebie to duża część moich lekcji. Chcę tylko, żeby uczniowie znali swój rzeczywisty poziom oraz mocne i słabe strony.
+
+## Czego uczę się od moich uczniów
+
+To chyba moja ulubiona część tej pracy i nie do końca rozumiem, dlaczego większość nauczycieli o niej nie wspomina.
+
+Lider zespołu pracującego nad lekami na raka pokazał mi kilka świetnych książek i opowiedział o swoich obowiązkach. Ja nauczyłem go opisywać proces, a on nauczył mnie, jak działa jego branża. Oficer, który uwielbiał swoją pracę, opowiadał o wojskowych tradycjach, kulturze i codzienności służby (oczywiście bez wrażliwych informacji). W czasie wojny w Ukrainie słuchało się tego z prawdziwym zainteresowaniem. Funkcjonariusz Centralnego Biura Śledczego Policji dzielił się historiami o nalotach na nielegalne laboratoria narkotykowe, opowiedział mi trochę o historii przestępczości zorganizowanej w Polsce, a ja dałem mu słownictwo potrzebne do opisania tego, co widział. Właściciel centrum ogrodniczego z entuzjazmem opowiadał o niezbyt czystych realiach hodowania kur i uprawy pomidorów. Dla mnie był to nowy świat. Ekspert od cold callingu uczył się wyjaśniać swoje metody przyszłym klientom w tym samym czasie, gdy ja uczyłem się sprzedawać własne oprogramowanie.
+
+Kiedyś w magazynie jeden uczeń polecił mnie koledze, a ten następnej osobie. Skończyło się na tym, że uczyłem około siedmiu osób w jednej firmie, każdą na innym stanowisku. Język był specjalistyczny i konkretny, a ja poznawałem logistykę z kilku stron. Pracowali z zagranicznym personelem i z tygodnia na tydzień lekcje ułatwiały im życie. Właśnie takie efekty lubię widzieć najbardziej.
+
+Moi uczniowie często są ekspertami w pokoju.
+
+Ja jestem tam po to, żeby uczyć ich angielskiego. Zwykle przy okazji sam czegoś się uczę.
+
+## Kiedy lekcje się kończą
+
+Jeden z moich uczniów, czołowy polski iluzjonista i mój przyjaciel, przygotowywał się do występu w America’s Got Talent. Mieliśmy półgodzinne lekcje pięć dni w tygodniu i pracowaliśmy nad dwiema rzeczami naraz: występem oraz mówieniem bez zastanawiania się nad każdym słowem.
+
+Lekcje skończyły się dlatego, że zadziałały. Pojechał do LA, rozmawiał swobodnie i płynnie poprowadził swój występ po angielsku. Nie byłem już potrzebny. Nie mogło się to skończyć lepiej.
+
+Tak pracuję. Lekcje prowadzą do twojego celu, więc kiedy go osiągniesz, nie mam ci już nic do sprzedania. Nie będę cię spowalniać, żeby zatrzymać cię jako klienta na zawsze. Zrobię, co w mojej mocy, żebyś dotarł do celu jak najszybciej. Choć często okazuje się wtedy, że czekają kolejne cele, wyższe poziomy i większe marzenia.
+
+## Gdzie się spotykamy
+
+Od czasu pandemii uczę online i okazało się to lepsze, niż się spodziewałem. Byłem pewien, że kamerka i pół sekundy opóźnienia zrujnują rozmowę. Tak się nie stało. Wiele osób mówi swobodniej przy własnym biurku niż w sali lekcyjnej czy nieznanym miejscu. Możemy korzystać z tego, co ci odpowiada (zwykle jest to Google Meet), więc nie musisz niczego instalować. Kamera trochę pomaga, dlatego zwykle mam swoją włączoną, ale jeśli wolisz nie pokazywać się na wideo, nie ma problemu. Mikrofon jest konieczny. Musisz mówić.
+
+Nadal lubię spotykać się na żywo (w Warszawie) i możemy łączyć oba sposoby. W twoim biurze, w kawiarni, w twoim mieszkaniu. Rozmowa twarzą w twarz daje coś, czego nie ma na lekcji online, ale obie formy działają.
+
+Oferuję bezpłatną pierwszą lekcję, która trwa 30 minut. Zobaczysz, jak uczę, a ja dowiem się, co chcesz osiągnąć.
+
+Na pierwszą lekcję potrzebujesz tylko mikrofonu i celu.  
+Zwykle celem jest mówienie, a zwykle przychodzi ono szybciej, niż się spodziewasz.

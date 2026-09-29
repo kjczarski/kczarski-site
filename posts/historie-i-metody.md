@@ -45,4 +45,4 @@ Takie techniki nie działają na wszystkich – ale właśnie dlatego ich używa
 
 Najważniejszy jest dla mnie cel ostateczny: moi uczniowie mają kochać język tak mocno jak ja.
 
-*Aktualizacja, 2026: Napisałem to w 2022. Moje metody rozwinęły się od tamtej pory. Uczę teraz w pełni online, a nowy wpis o tym, jak uczę dziś, jest w drodze.*
+*Aktualizacja, 2026: Napisałem to w 2022. Moje metody rozwinęły się od tamtej pory. Uczę teraz w pełni online, a opisałem to w nowym wpisie, [jak uczę w 2026](jak-ucze-w-2026.html).*
