@@ -9,3 +9,5 @@ assets/fonts/sora-*.woff2
 assets/fonts/sharpie-*.woff2
 
 .DS_Store
+__pycache__/
+*.pyc
