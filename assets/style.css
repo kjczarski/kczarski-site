@@ -108,6 +108,7 @@ footer{margin:52px 0 0;padding:24px 0 0;border-top:1px solid var(--line);display
 footer a{color:var(--ink);text-decoration:none}
 footer .contact{display:flex;flex-direction:column;gap:2px;align-items:flex-start}
 footer .contact .label{color:var(--muted)}
+footer .contact .plain{color:var(--ink)}
 footer a:hover{border-bottom:1px solid var(--ink)}
 
 ul.posts{list-style:none;padding:0;margin:0}

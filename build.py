@@ -298,23 +298,32 @@ def header(lang, out, kind, keys, post_key=None):
         home, "".join(links))
 
 
-def page(lang, title, desc, out, seo_block, head, main, tagline):
+def page(lang, title, desc, out, seo_block, head, main, tagline, wa_link=True):
     css = rel(out, "assets/style.css")
     fonts = rel(out, "assets/fonts/site.css")
+    favicon = rel(out, "assets/favicon.svg")
     footer = ""
     if tagline:
         label = "Kontakt:" if lang == "pl" else "Contact:"
+        # The ENGLISH keyword is for prospective students, so the number is only
+        # a WhatsApp link where a student would be the one reading it. The
+        # workshops page is read by schools, so there it stays plain text.
+        if wa_link:
+            phone = ('<a href="https://wa.me/48507020581?text=ENGLISH">'
+                     "+48 507 020 581</a>")
+        else:
+            phone = '<span class="plain">+48 507 020 581</span>'
         footer = (
             "      <footer>\n"
             '        <div class="contact">\n'
             '          <span class="label">%s</span>\n'
             '          <a href="mailto:kjczarski@gmail.com">kjczarski@gmail.com</a>\n'
-            '          <a href="https://wa.me/48507020581?text=ENGLISH">'
-            "+48 507 020 581</a>\n"
+            "          %s\n"
+            '          <a href="https://www.linkedin.com/in/kjczarski/">LinkedIn</a>\n'
             "        </div>\n"
             "        <span>%s</span>\n"
             "      </footer>\n"
-        ) % (label, tagline)
+        ) % (label, phone, tagline)
     return (
         "<!doctype html>\n"
         '<html lang="%s">\n'
@@ -324,6 +333,7 @@ def page(lang, title, desc, out, seo_block, head, main, tagline):
         "<title>%s</title>\n"
         '<meta name="description" content="%s">\n'
         "%s"
+        '<link rel="icon" href="%s" type="image/svg+xml">\n'
         '<link rel="stylesheet" href="%s">\n'
         '<link rel="stylesheet" href="%s">\n'
         "%s"
@@ -342,7 +352,7 @@ def page(lang, title, desc, out, seo_block, head, main, tagline):
         "</body>\n"
         "</html>\n"
     ) % (lang, html.escape(title), html.escape(desc, quote=True),
-         seo_block, fonts, css, THEME_INIT, head, main, footer, THEME_HANDLER)
+         seo_block, favicon, fonts, css, THEME_INIT, head, main, footer, THEME_HANDLER)
 
 
 def write_sitemap(entries):
@@ -411,6 +421,9 @@ def build():
             main = frag.read_text(encoding="utf-8").strip()
             out = d + page_name + ".html"
             main = main.replace("{{a}}", rel(out, "assets") + "/")
+            # Workshops are read by schools, not prospective students: no ENGLISH
+            # keyword there. Everywhere else the number opens WhatsApp.
+            wa_link = page_name != "workshops"
             # Only advertise a language that actually has its own fragment,
             # so an untranslated fallback is never claimed to be a translation.
             alts = [(l2, abs_url(LANG_DIR[l2] + page_name + ".html")) for l2 in LANGS
@@ -424,7 +437,7 @@ def build():
                      seo(lang, out, PAGE_TITLES[lang][page_name], DESC[lang][page_name],
                          page_name, alts),
                      header(lang, out, page_name, NAV[page_name]),
-                     main, FOOTER_TAG[lang][page_name]),
+                     main, FOOTER_TAG[lang][page_name], wa_link),
                 encoding="utf-8",
             )
 
@@ -451,7 +464,7 @@ def build():
                      seo(lang, out, e["title"] + ", Krzysztof Czarski", DESC[lang]["blog"],
                          "post", alts),
                      header(lang, out, "post", NAV["post"], post_key),
-                     main, FOOTER_TAG[lang]["post"]),
+                     main, FOOTER_TAG[lang]["post"], True),
                 encoding="utf-8",
             )
 
@@ -475,7 +488,7 @@ def build():
             page(lang, PAGE_TITLES[lang]["blog"], DESC[lang]["blog"], out,
                  seo(lang, out, PAGE_TITLES[lang]["blog"], DESC[lang]["blog"], "blog", alts),
                  header(lang, out, "blog", NAV["blog"]),
-                 main, FOOTER_TAG[lang]["blog"]),
+                 main, FOOTER_TAG[lang]["blog"], True),
             encoding="utf-8",
         )
 
