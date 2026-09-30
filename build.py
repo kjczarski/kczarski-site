@@ -85,7 +85,7 @@ DESC = {
         "lessons": "Prywatne lekcje angielskiego i rozmowy online. Metoda: rozmowa, poprawki, rozmowa. CPE i CELTA z oceną A.",
         "workshops": "Warsztaty dla Erasmus+ i podobnych programów: AI, startupy, praktyka twórcza, komunikacja, pewność siebie.",
         "blog": "Eseje i notatki Krzysztofa (Chrisa) Czarskiego.",
-        "cv": "CV of Krzysztof (Chris) Czarski: teaching, workshop facilitation, translation, and what he has done.",
+        "cv": "CV Krzysztofa (Chrisa) Czarskiego: nauczanie, prowadzenie warsztatów, tłumaczenia i dotychczasowe doświadczenie.",
     },
 }
 
