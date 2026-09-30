@@ -31,6 +31,11 @@ ROOT = pathlib.Path(__file__).resolve().parent
 POSTS = ROOT / "posts"
 PARTS = ROOT / "parts"
 
+SITE_URL = "https://krzysztofczarski.com"
+OG_SITE_NAME = "Krzysztof Czarski"
+OG_IMAGE = "assets/img/02-teaching-jordan.jpg"
+LOCALE = {"en": "en_GB", "pl": "pl_PL"}
+
 LANGS = ["en", "pl"]
 LANG_DIR = {"en": "", "pl": "pl/"}
 SWITCH_LABEL = {"en": "PL", "pl": "EN"}
@@ -128,6 +133,54 @@ def rel(out, target):
     """Relative href from output file to a root-relative target."""
     d = posixpath.dirname(out)
     return posixpath.relpath(target, d) if d else target
+
+
+def abs_url(out):
+    """Absolute URL for an output path. index.html becomes a trailing-slash URL."""
+    p = out[:-len("index.html")] if out.endswith("index.html") else out
+    return SITE_URL + "/" + p
+
+
+def alt_map(alts):
+    """Sort alternates so en comes first, then pl."""
+    return sorted(alts, key=lambda a: 0 if a[0] == "en" else 1)
+
+
+def seo(lang, out, title, desc, kind, alts):
+    """Canonical URL, hreflang alternates, Open Graph and Twitter card tags."""
+    url = abs_url(out)
+    alts = alt_map(alts)
+    t = html.escape(title, quote=True)
+    d = html.escape(desc, quote=True)
+    img = SITE_URL + "/" + OG_IMAGE
+    lines = ['    <link rel="canonical" href="%s">' % url]
+    for code, href in alts:
+        lines.append('    <link rel="alternate" hreflang="%s" href="%s">' % (code, href))
+    for code, href in alts:
+        if code == "en":
+            lines.append('    <link rel="alternate" hreflang="x-default" href="%s">' % href)
+            break
+    lines += [
+        '    <meta property="og:type" content="%s">' % ("article" if kind == "post" else "website"),
+        '    <meta property="og:site_name" content="%s">' % OG_SITE_NAME,
+        '    <meta property="og:title" content="%s">' % t,
+        '    <meta property="og:description" content="%s">' % d,
+        '    <meta property="og:url" content="%s">' % url,
+        '    <meta property="og:locale" content="%s">' % LOCALE[lang],
+        '    <meta property="og:image" content="%s">' % img,
+        '    <meta property="og:image:width" content="1367">',
+        '    <meta property="og:image:height" content="898">',
+    ]
+    for code, _href in alts:
+        if code != lang:
+            lines.append('    <meta property="og:locale:alternate" content="%s">' % LOCALE[code])
+    lines += [
+        '    <meta name="twitter:card" content="summary_large_image">',
+        '    <meta name="twitter:title" content="%s">' % t,
+        '    <meta name="twitter:description" content="%s">' % d,
+        '    <meta name="twitter:image" content="%s">' % img,
+    ]
+    return "\n".join(lines) + "\n"
 
 
 def inline(s):
@@ -245,7 +298,7 @@ def header(lang, out, kind, keys, post_key=None):
         home, "".join(links))
 
 
-def page(lang, title, desc, out, head, main, tagline):
+def page(lang, title, desc, out, seo_block, head, main, tagline):
     css = rel(out, "assets/style.css")
     fonts = rel(out, "assets/fonts/site.css")
     footer = ""
@@ -264,6 +317,7 @@ def page(lang, title, desc, out, head, main, tagline):
         '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
         "<title>%s</title>\n"
         '<meta name="description" content="%s">\n'
+        "%s"
         '<link rel="stylesheet" href="%s">\n'
         '<link rel="stylesheet" href="%s">\n'
         "%s"
@@ -281,7 +335,39 @@ def page(lang, title, desc, out, head, main, tagline):
         "  </div>\n"
         "</body>\n"
         "</html>\n"
-    ) % (lang, title, desc, fonts, css, THEME_INIT, head, main, footer, THEME_HANDLER)
+    ) % (lang, html.escape(title), html.escape(desc, quote=True),
+         seo_block, fonts, css, THEME_INIT, head, main, footer, THEME_HANDLER)
+
+
+def write_sitemap(entries):
+    """sitemap.xml with hreflang alternates and lastmod for dated posts."""
+    out = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+           '        xmlns:xhtml="http://www.w3.org/1999/xhtml">']
+    for e in entries:
+        out.append("  <url>")
+        out.append("    <loc>%s</loc>" % e["loc"])
+        for code, href in e["alts"]:
+            out.append('    <xhtml:link rel="alternate" hreflang="%s" href="%s"/>' % (code, href))
+        for code, href in e["alts"]:
+            if code == "en":
+                out.append('    <xhtml:link rel="alternate" hreflang="x-default" href="%s"/>' % href)
+                break
+        if e["lastmod"]:
+            out.append("    <lastmod>%s</lastmod>" % e["lastmod"])
+        out.append("  </url>")
+    out.append("</urlset>")
+    (ROOT / "sitemap.xml").write_text("\n".join(out) + "\n", encoding="utf-8")
+
+
+def write_robots():
+    (ROOT / "robots.txt").write_text(
+        "User-agent: *\n"
+        "Allow: /\n"
+        "\n"
+        "Sitemap: %s/sitemap.xml\n" % SITE_URL,
+        encoding="utf-8",
+    )
 
 
 def build():
@@ -299,6 +385,12 @@ def build():
         entries.append({"slug": slug, "title": title, "date": date,
                         "body": body, "lang": lang, "pair": pair})
 
+    slugs = {e["slug"] for e in entries}
+    sitemap = []
+
+    def record(out, alts, lastmod=""):
+        sitemap.append({"loc": abs_url(out), "alts": alt_map(alts), "lastmod": lastmod})
+
     for lang in LANGS:
         d = LANG_DIR[lang]
         posts = [e for e in entries if e["lang"] == lang]
@@ -313,9 +405,18 @@ def build():
             main = frag.read_text(encoding="utf-8").strip()
             out = d + page_name + ".html"
             main = main.replace("{{a}}", rel(out, "assets") + "/")
+            # Only advertise a language that actually has its own fragment,
+            # so an untranslated fallback is never claimed to be a translation.
+            alts = [(l2, abs_url(LANG_DIR[l2] + page_name + ".html")) for l2 in LANGS
+                    if (PARTS / ("_%s-%s.html" % (page_name, l2))).exists()]
+            if (lang, abs_url(out)) not in alts:
+                alts.append((lang, abs_url(out)))
+            record(out, alts)
             (ROOT / out).write_text(
                 page(lang, PAGE_TITLES[lang][page_name], DESC[lang][page_name],
                      out,
+                     seo(lang, out, PAGE_TITLES[lang][page_name], DESC[lang][page_name],
+                         page_name, alts),
                      header(lang, out, page_name, NAV[page_name]),
                      main, FOOTER_TAG[lang][page_name]),
                 encoding="utf-8",
@@ -325,6 +426,11 @@ def build():
         for e in posts:
             out = d + "posts/" + e["slug"] + ".html"
             post_key = e["pair"] or None
+            alts = [(lang, abs_url(out))]
+            if post_key and post_key in slugs:
+                other = "pl" if lang == "en" else "en"
+                alts.append((other, abs_url(LANG_DIR[other] + "posts/" + post_key + ".html")))
+            record(out, alts, e["date"])
             main = (
                 '      <div class="hero">\n'
                 "        <h1>%s</h1>\n"
@@ -336,6 +442,8 @@ def build():
             ) % (html.escape(e["title"]), pretty_date(lang, e["date"]), md_to_html(e["body"]))
             (ROOT / out).write_text(
                 page(lang, e["title"] + ", Krzysztof Czarski", DESC[lang]["blog"], out,
+                     seo(lang, out, e["title"] + ", Krzysztof Czarski", DESC[lang]["blog"],
+                         "post", alts),
                      header(lang, out, "post", NAV["post"], post_key),
                      main, FOOTER_TAG[lang]["post"]),
                 encoding="utf-8",
@@ -355,14 +463,20 @@ def build():
         main = ('      <div class="hero">\n        <h1>Blog</h1>\n      </div>\n\n'
                 '      <section>\n%s\n      </section>' % listing)
         out = d + "blog.html"
+        alts = [(l2, abs_url(LANG_DIR[l2] + "blog.html")) for l2 in LANGS]
+        record(out, alts)
         (ROOT / out).write_text(
             page(lang, PAGE_TITLES[lang]["blog"], DESC[lang]["blog"], out,
+                 seo(lang, out, PAGE_TITLES[lang]["blog"], DESC[lang]["blog"], "blog", alts),
                  header(lang, out, "blog", NAV["blog"]),
                  main, FOOTER_TAG[lang]["blog"]),
             encoding="utf-8",
         )
 
+    write_sitemap(sitemap)
+    write_robots()
     print("Built %d post(s) in %d language(s)." % (len(entries), len(LANGS)))
+    print("Sitemap: %d URL(s) at sitemap.xml" % len(sitemap))
 
 
 if __name__ == "__main__":
