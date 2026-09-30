@@ -106,6 +106,8 @@ ul.gallery figcaption{color:var(--muted);font-size:.85rem;padding-top:8px;line-h
 .cross a:hover .arrow{color:var(--ink);transform:translateX(5px)}
 footer{margin:52px 0 0;padding:24px 0 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.85rem;color:var(--muted)}
 footer a{color:var(--ink);text-decoration:none}
+footer .contact{display:flex;flex-direction:column;gap:2px;align-items:flex-start}
+footer .contact .label{color:var(--muted)}
 footer a:hover{border-bottom:1px solid var(--ink)}
 
 ul.posts{list-style:none;padding:0;margin:0}

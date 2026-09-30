@@ -303,12 +303,18 @@ def page(lang, title, desc, out, seo_block, head, main, tagline):
     fonts = rel(out, "assets/fonts/site.css")
     footer = ""
     if tagline:
+        label = "Kontakt:" if lang == "pl" else "Contact:"
         footer = (
             "      <footer>\n"
-            '        <a href="mailto:kjczarski@gmail.com">kjczarski@gmail.com</a>\n'
+            '        <div class="contact">\n'
+            '          <span class="label">%s</span>\n'
+            '          <a href="mailto:kjczarski@gmail.com">kjczarski@gmail.com</a>\n'
+            '          <a href="https://wa.me/48507020581?text=ENGLISH">'
+            "+48 507 020 581</a>\n"
+            "        </div>\n"
             "        <span>%s</span>\n"
             "      </footer>\n"
-        ) % tagline
+        ) % (label, tagline)
     return (
         "<!doctype html>\n"
         '<html lang="%s">\n'
