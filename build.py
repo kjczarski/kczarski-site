@@ -105,32 +105,6 @@ MONTHS = {
            "lip", "sie", "wrz", "paź", "lis", "gru"],
 }
 
-SUN_SVG = (
-    '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor"'
-    ' stroke-width="2" stroke-linecap="round" aria-hidden="true">'
-    '<circle cx="12" cy="12" r="4.5"/>'
-    '<path d="M12 2.5v2.5M12 19v2.5M2.5 12h2.5M19 12h2.5M5 5l1.8 1.8M17.2 17.2L19 19M19 5l-1.8 1.8M6.8 17.2L5 19"/></svg>'
-)
-
-THEME_INIT = (
-    '<script>\n'
-    "(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}"
-    "if(t==='dark')document.documentElement.setAttribute('data-theme','dark');"
-    "})();\n"
-    "</script>\n"
-)
-
-THEME_HANDLER = (
-    '<script>\n'
-    "document.getElementById('theme').addEventListener('click',function(){"
-    "var h=document.documentElement;"
-    "h.hasAttribute('data-theme')?h.removeAttribute('data-theme'):h.setAttribute('data-theme','dark');"
-    "try{localStorage.setItem('theme',h.hasAttribute('data-theme')?'dark':'light')}catch(e){}})"
-    ";\n"
-    "</script>\n"
-)
-
-
 def rel(out, target):
     """Relative href from output file to a root-relative target."""
     d = posixpath.dirname(out)
@@ -290,10 +264,6 @@ def header(lang, out, kind, keys, post_key=None):
              for key in keys]
     links.append('        <a class="xlink lang" href="%s">%s</a>\n'
                  % (rel(out, switch_target), SWITCH_LABEL[lang]))
-    links.append(
-        '        <button type="button" class="theme" id="theme" '
-        'aria-label="Toggle dark mode">%s</button>\n' % SUN_SVG
-    )
     home = rel(out, LANG_DIR[lang] + "index.html")
     return ('      <a class="brand" href="%s">Krzysztof Czarski</a>\n'
             '      <nav class="topnav">\n%s      </nav>') % (
@@ -338,7 +308,6 @@ def page(lang, title, desc, out, seo_block, head, main, tagline, wa_link=True):
         '<link rel="icon" href="%s" type="image/svg+xml">\n'
         '<link rel="stylesheet" href="%s">\n'
         '<link rel="stylesheet" href="%s">\n'
-        "%s"
         "</head>\n"
         "<body>\n"
         '  <div class="wrap">\n'
@@ -349,12 +318,11 @@ def page(lang, title, desc, out, seo_block, head, main, tagline, wa_link=True):
         "%s\n"
         "%s"
         "    </main>\n"
-        "%s"
         "  </div>\n"
         "</body>\n"
         "</html>\n"
     ) % (lang, html.escape(title), html.escape(desc, quote=True),
-         seo_block, favicon, fonts, css, THEME_INIT, head, main, footer, THEME_HANDLER)
+         seo_block, favicon, fonts, css, head, main, footer)
 
 
 def write_sitemap(entries):
