@@ -6,8 +6,9 @@ Usage:
 
 Static pages (index, lessons, workshops, cv) read their body from
 parts/_<page>-<lang>.html. A page with no <lang> fragment yet falls back to
-the English one, so pl/cv.html is an untranslated copy until parts/_cv-pl.html
-exists. The blog is generated from posts/*.md, and each post may declare:
+the English one, but it is not advertised as a translation, so a page can end
+up in one language only by accident. The blog is generated from posts/*.md,
+and each post may declare:
 
     ---
     title: My title
@@ -42,7 +43,7 @@ SWITCH_LABEL = {"en": "PL", "pl": "EN"}
 
 # Nav link sets per kind of page, keys refer to page names.
 NAV = {
-    "index": [],
+    "index": ["cv"],
     "lessons": ["workshops", "blog", "cv"],
     "workshops": ["lessons", "blog", "cv"],
     "blog": ["lessons", "workshops", "cv"],
