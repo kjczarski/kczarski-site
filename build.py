@@ -39,7 +39,8 @@ LOCALE = {"en": "en_GB", "pl": "pl_PL"}
 
 LANGS = ["en", "pl"]
 LANG_DIR = {"en": "", "pl": "pl/"}
-SWITCH_LABEL = {"en": "PL", "pl": "EN"}
+# Label for the link that switches to the other language, named in that language.
+SWITCH_LABEL = {"en": "po polsku", "pl": "in English"}
 
 # Nav link sets per kind of page, keys refer to page names.
 NAV = {
