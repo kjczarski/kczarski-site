@@ -71,6 +71,10 @@ section h2{font-family:'Sentient',Georgia,'Times New Roman',serif;font-size:1.15
 section p{margin:0 0 14px;max-width:40rem;text-wrap:pretty}
 section p:last-child{margin-bottom:0}
 .note{color:var(--muted);font-size:.95rem;margin-top:16px;max-width:40rem}
+p.lead{margin:22px 0 0;max-width:34rem;font-size:1.15rem;line-height:1.5;text-wrap:balance}
+
+ul.bullets{margin:0 0 14px;padding-left:20px}
+ul.bullets li{margin:0 0 6px;max-width:40rem}
 
 dl.facts{margin:0}
 dl.facts>div{display:grid;grid-template-columns:132px 1fr;gap:22px;padding:13px 0;border-bottom:1px solid var(--line)}
